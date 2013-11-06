@@ -32,15 +32,21 @@
             </div>
         </header>
 
+
+
         <nav class="nav-wrapper">
             <div class="nav">
                 <div class="float-anchor">
-                nav
+                    nav bar
                 </div>
             </div>
         </nav>
 
-
+        <section class="body">
+            <div class="content-main">
+                main
+            </div>
+        </section>
 
         <!-- Footer  -->
 
