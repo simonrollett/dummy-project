@@ -1,0 +1,70 @@
+.employer,
+.description {
+  display: block;
+}
+.accordion-item {
+  float: left;
+  display: none;
+  background: #fff;
+  margin-bottom: 1px;
+  width: 100%;
+}
+.accordion-item .date {
+  display: none;
+}
+.accordion-content {
+  display: none;
+}
+.accordion-content,
+.accordion-title {
+  clear: both;
+  width: 100%;
+}
+.accordion-title {
+  cursor: pointer;
+  padding: 0;
+  font-size: 1.5em;
+  margin: 0;
+  background: #eee;
+  position: relative;
+}
+.position,
+.employer {
+  display: block;
+  float: right;
+  width: 80%;
+}
+.position {
+  margin: 0;
+  padding: 0;
+}
+.employer {
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0;
+}
+.accordion-items-career .accordion-item-career {
+  display: block;
+}
+.accordion-items-fun .accordion-item-fun {
+  display: block;
+}
+.accordion-item-fun .accordion-title {
+  background: #ddd;
+}
+.accordion-item-show .accordion-content {
+  display: block;
+}
+@media only screen and (min-width: 600px) {
+  .accordion-item .date {
+    display: block;
+    float: left;
+    clear: left;
+    width: 20%;
+    font-size: 0.7em;
+    text-align: left;
+    position: absolute;
+    padding-top: 1em;
+    top: 0;
+  }
+}
