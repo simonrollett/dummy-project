@@ -9,6 +9,7 @@
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -21,42 +22,72 @@
 
   <body>
 
-      <nav>
-          <div class="nav span12">
-              <h1>Hello</h1>
-          </div>
-      </nav>
+      <div class="site-wrapper site-width">
+
+          <header class="header-wrapper">
+              <div class="header site-width">
+                  <div class="float-anchor">
+                      <h1>logo bar</h1>
+                  </div>
+              </div>
+          </header>
 
 
 
-    <!-- Footer  -->
+          <nav class="nav-wrapper">
+              <div class="nav">
+                  <div class="float-anchor">
+                      nav bar
+                  </div>
+              </div>
+          </nav>
 
-    <footer class="footer">
-        <div class="container">
-        footer
-        </div>
-    </footer>
+          <section class="body">
+              <div class="content-main container">
+                  <div class="row">
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                    <div class="col-md-1">.col-md-1</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">.col-md-8</div>
+                    <div class="col-md-4">.col-md-4</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4">.col-md-4</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">.col-md-6</div>
+                    <div class="col-md-6">.col-md-6</div>
+                  </div>
+              </div>
+          </section>
+
+          <!-- Footer  -->
+
+          <footer class="footer-wrapper">
+              <div class="footer">
+                  <div class="float-anchor">
+                      footer
+                  </div>
+              </div>
+          </footer>
+      </div>
 
 
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+      <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
-
-
-
-  </body>
+    </body>
 </html>

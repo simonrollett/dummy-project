@@ -7,8 +7,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<!--    <link href="assets/css/bootstrap.css" rel="stylesheet">-->
-<!--    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
 <link href="http://helpmeit.co.uk/client/hydreco/css/base.css" rel="stylesheet">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -25,7 +26,7 @@
     <div class="site-wrapper site-width">
 
         <header class="header-wrapper">
-            <div class="header">
+            <div class="header site-width">
                 <div class="float-anchor">
                     <h1>logo bar</h1>
                 </div>
@@ -43,8 +44,34 @@
         </nav>
 
         <section class="body">
-            <div class="content-main">
-                main
+            <div class="content-main container">
+                <div class="row">
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                  <div class="col-md-1">.col-md-1</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">.col-md-8</div>
+                  <div class="col-md-4">.col-md-4</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">.col-md-4</div>
+                  <div class="col-md-4">.col-md-4</div>
+                  <div class="col-md-4">.col-md-4</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">.col-md-6</div>
+                  <div class="col-md-6">.col-md-6</div>
+                </div>
             </div>
         </section>
 
