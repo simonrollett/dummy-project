@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dummy-project.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/base.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/modules/brand.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.css" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.less" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/base.css" afterPath="$PROJECT_DIR$/assets/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/brand.less" afterPath="$PROJECT_DIR$/assets/less/modules/brand.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dummy-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383761631365" ignored="false" />
-    <file path="/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383762377977" ignored="false" />
-    <file path="/accordion.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383762245867" ignored="false" />
+    <file path="/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383780190549" ignored="false" />
+    <file path="/accordion.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383779465461" ignored="false" />
     <file path="/base.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383762533767" ignored="false" />
+    <file path="/brand.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383779351655" ignored="false" />
+    <file path="/a.dummy" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778457145" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/less/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
+    <file path="/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/css/base.css" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383779319553" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +41,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.3088803">
       <split-first>
         <leaf>
-          <file leaf-file-name="accordion.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="accordion.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.40781647">
+                <state line="74" column="8" selection-start="804" selection-end="804" vertical-scroll-proportion="0.5919689">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="79" column="1" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <marker date="1383779506000" expanded="true" signature="566:607" placeholder="{...}" />
+                    <marker date="1383779506000" expanded="true" signature="628:648" placeholder="{...}" />
+                    <marker date="1383779506000" expanded="true" signature="718:797" placeholder="{...}" />
+                    <marker date="1383779506000" expanded="true" signature="784:815" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -62,7 +76,16 @@
           <file leaf-file-name="brand.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/brand.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                <state line="5" column="43" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="brand.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../MadJester2013/wp-content/themes/responsive/css/modules/brand.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="0" selection-start="43" selection-end="540" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -72,10 +95,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.44567063">
+                <state line="76" column="66" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.019404916">
                   <folding />
                 </state>
               </provider>
@@ -104,8 +127,10 @@
         <option value="$PROJECT_DIR$/assets/js/accordion.js" />
         <option value="$PROJECT_DIR$/assets/less/accordion.less" />
         <option value="$PROJECT_DIR$/assets/less/base.less" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/../MadJester2013/wp-content/themes/responsive/css/modules/brand.css" />
+        <option value="$PROJECT_DIR$/assets/less/modules/brand.less" />
         <option value="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -230,6 +255,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -265,9 +294,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17581543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17581543" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -275,7 +305,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -350,6 +379,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../MadJester2013/wp-content/themes/responsive/css/modules/brand.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="43" selection-end="540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MadJester2013/wp-content/themes/responsive/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="612" selection-end="678" vertical-scroll-proportion="0.26492852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="1" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383779506000" expanded="true" signature="566:607" placeholder="{...}" />
+            <marker date="1383779506000" expanded="true" signature="628:648" placeholder="{...}" />
+            <marker date="1383779506000" expanded="true" signature="718:797" placeholder="{...}" />
+            <marker date="1383779506000" expanded="true" signature="784:815" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/base.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="22" selection-start="51" selection-end="51" vertical-scroll-proportion="-0.6">
@@ -359,21 +414,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/brand.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.44567063">
+        <state line="5" column="43" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.40781647">
+        <state line="74" column="8" selection-start="804" selection-end="804" vertical-scroll-proportion="0.5919689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="66" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.019404916">
           <folding />
         </state>
       </provider>

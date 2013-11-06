@@ -7,11 +7,10 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
     <link href="assets/css/base.css" rel="stylesheet">
 
-<link href="http://helpmeit.co.uk/client/hydreco/css/base.css" rel="stylesheet">
+<!--<link href="http://helpmeit.co.uk/client/hydreco/css/base.css" rel="stylesheet">-->
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -72,6 +71,32 @@
                                 </p>
                             </div>
 
+                        </div>
+                    </div>
+
+                    <div class="accordion-item accordion-item-fun">
+                        <div class="accordion-title">
+                            <h2 class="position">NEC Bike Show</h2>
+                            <h3 class="employer">Birmingham</h3>
+                            <span class="date">01-11-2007</span>
+                        </div>
+                        <div class="accordion-content time-work">
+                            <div class="description">
+                                <p>
+                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+                                    Nam mi. Proin viverra leo ut odio.
+                                </p>
+                            </div>
+                            <div class="accordion-footer">
+                                <ul class="accordion-footer-references">
+                                    <li>Jim Chapman</li>
+                                </ul>
+                                <div class="accordion-footer-appendix">
+                                    Some info here
+                                </div>
+                            </div>
                         </div>
                     </div>
 
