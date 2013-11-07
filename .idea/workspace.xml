@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.css" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.less" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/base.css" afterPath="$PROJECT_DIR$/assets/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/brand.less" afterPath="$PROJECT_DIR$/assets/less/modules/brand.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="" />
     <ignored path="dummy-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383761631365" ignored="false" />
@@ -20,6 +13,11 @@
     <file path="$PROJECT_DIR$/../hydreco/less/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
     <file path="/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/css/base.css" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383779319553" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855778914" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/js/form-javas.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855134037" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/includes/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855132519" ignored="false" />
+    <file path="/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855132519" ignored="false" />
+    <file path="/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855398864" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
