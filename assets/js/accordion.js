@@ -23,9 +23,15 @@ $(document).ready(function($) {
     });
 
     // only fun
-    $(".accordion-options-fun").click(function (e) { // binding onclick
-        e.preventDefault();
-        toggleAccordionView("accordion-items-fun");
-    });
+        $(".accordion-options-fun").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-fun");
+        });
+
+    // mj
+        $(".accordion-options-madjester").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-madjester");
+        });
 
 });
