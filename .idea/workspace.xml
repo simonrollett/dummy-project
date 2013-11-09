@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/modules/grid.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/modules/layout.less" />
@@ -20,6 +21,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="" />
+>>>>>>> 1bd44d08bb87d2f149eca1ec395086b4f8e30323
     <ignored path="dummy-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384015591559" ignored="false" />
@@ -68,8 +72,31 @@
     <splitter split-orientation="horizontal" split-proportion="0.3950677">
       <split-first>
         <leaf>
+<<<<<<< HEAD
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
+=======
+          <file leaf-file-name="accordion.less" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="78" column="14" selection-start="939" selection-end="939" vertical-scroll-proportion="0.33333334">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="136" column="0" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="brand.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/less/modules/brand.less">
+>>>>>>> 1bd44d08bb87d2f149eca1ec395086b4f8e30323
               <provider selected="true" editor-type-id="text-editor">
                 <state line="243" column="51" selection-start="11284" selection-end="11299" vertical-scroll-proportion="-124.375">
                   <folding />
@@ -448,7 +475,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/base.less">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="4" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="-2.4">
+=======
+        <state line="78" column="14" selection-start="939" selection-end="939" vertical-scroll-proportion="0.33333334">
+>>>>>>> 1bd44d08bb87d2f149eca1ec395086b4f8e30323
           <folding />
         </state>
       </provider>
