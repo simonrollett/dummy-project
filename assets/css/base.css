@@ -1,48 +1,361 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-.employer,
-.description {
-  display: block;
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+}
+.col-1 {
+  width: 8.3333% !important;
+}
+.col-2 {
+  width: 16.6666% !important;
+}
+.col-3 {
+  width: 25% !important;
+}
+.col-4 {
+  width: 33.3333% !important;
+}
+.col-5 {
+  width: 41.6666% !important;
+}
+.col-6 {
+  width: 50% !important;
+}
+.col-7 {
+  width: 58.3333% !important;
+}
+.col-8 {
+  width: 66.6666% !important;
+}
+.col-9 {
+  width: 75% !important;
+}
+.col-10 {
+  width: 83.3333% !important;
+}
+.col-11 {
+  width: 91.6666% !important;
+}
+.col-12 {
+  width: 100%;
+}
+@media only screen and (min-width: 40em) {
+  .row-anchor,
+  .clear-anchor {
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+  .col-12 {
+    width: 100%;
+    float: left;
+  }
+  .col-1-ts,
+  .col-2-ts,
+  .col-3-ts,
+  .col-4-ts,
+  .col-5-ts,
+  .col-6-ts,
+  .col-7-ts,
+  .col-8-ts,
+  .col-9-ts,
+  .col-10-ts,
+  .col-11-ts,
+  .col-12-ts {
+    float: left;
+  }
+  .col-1-ts {
+    width: 8.3333% !important;
+  }
+  .col-2-ts {
+    width: 16.6666% !important;
+  }
+  .col-3-ts {
+    width: 25% !important;
+  }
+  .col-4-ts {
+    width: 33.3333% !important;
+  }
+  .col-5-ts {
+    width: 41.6666% !important;
+  }
+  .col-6-ts {
+    width: 50% !important;
+  }
+  .col-7-ts {
+    width: 58.3333% !important;
+  }
+  .col-8-ts {
+    width: 66.6666% !important;
+  }
+  .col-9-ts {
+    width: 75% !important;
+  }
+  .col-10-ts {
+    width: 83.3333% !important;
+  }
+  .col-11-ts {
+    width: 91.6666% !important;
+  }
+  .col-12-ts {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .col-1-t,
+  .col-2-t .col-3-t .col-4-t .col-5-t .col-6-t .col-7-t .col-8-t .col-9-t .col-10-t .col-11-t .col-12-t {
+    float: left;
+  }
+  .col-1-t {
+    width: 8.3333% !important;
+  }
+  .col-2-t {
+    width: 16.6666% !important;
+  }
+  .col-3-t {
+    width: 25% !important;
+  }
+  .col-4-t {
+    width: 33.3333% !important;
+  }
+  .col-5-t {
+    width: 41.6666% !important;
+  }
+  .col-6-t {
+    width: 50% !important;
+  }
+  .col-7-t {
+    width: 58.3333% !important;
+  }
+  .col-8-t {
+    width: 66.6666% !important;
+  }
+  .col-9-t {
+    width: 75% !important;
+  }
+  .col-10-t {
+    width: 83.3333% !important;
+  }
+  .col-11-t {
+    width: 91.6666% !important;
+  }
+  .wrapper-content {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .col-1-d,
+  .col-2-d,
+  .col-3-d,
+  .col-4-d,
+  .col-5-d,
+  .col-6-d,
+  .col-7-d,
+  .col-8-d,
+  .col-9-d,
+  .col-10-d,
+  .col-11-d,
+  .col-12-d {
+    float: left;
+  }
+  .col-1-d {
+    width: 8.3333% !important;
+  }
+  .col-2-d {
+    width: 16.6666% !important;
+  }
+  .col-3-d {
+    width: 25% !important;
+  }
+  .col-4-d {
+    width: 33.3333% !important;
+  }
+  .col-5-d {
+    width: 41.6666% !important;
+  }
+  .col-6-d {
+    width: 50% !important;
+  }
+  .col-7-d {
+    width: 58.3333% !important;
+  }
+  .col-8-d {
+    width: 66.6666% !important;
+  }
+  .col-9-d {
+    width: 75% !important;
+  }
+  .col-10-d {
+    width: 83.3333% !important;
+  }
+  .col-11-d {
+    width: 91.6666% !important;
+  }
+  .site-width {
+    width: 75em;
+  }
+}
+body {
+  font-size: 1em;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.FR {
+  float: right !important;
+}
+.FL {
+  float: left !important;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+.row {
+  clear: both;
+}
+div {
+  box-sizing: border-box;
+}
+.inner {
+  padding: 1em;
+}
+.inner-half {
+  padding: 0.5em;
+}
+.inner-X-half-Y {
+  padding: 0.5em 1em;
+}
+.inner-X-half-X {
+  padding: 0.5em;
+}
+.inner-half-Y {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.inner-half-X {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.inner-nobase {
+  padding: 1em;
+  padding-bottom: 0;
+}
+.inner-base {
+  padding-bottom: 1em;
+}
+.inner-X {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.inner-Y {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.site-wrapper {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 40em) {
+  
+}
+@media only screen and (min-width: 50em) {
+  .site-width {
+    width: 40em;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .site-width {
+    width: 50em;
+  }
+}
+@media only screen and (min-width: 100em) {
+  .site-width {
+    width: 75em;
+  }
+}
+.accordion-options {
+  clear: both;
+}
+.accordion-options .accordion-option {
+  padding: 0.5em;
+}
+.accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .accordion-item {
   float: left;
   display: none;
-  background: #fff;
-  margin-bottom: 1px;
-  padding: 0.5em 0;
-  width: 100%;
-}
-.accordion-item .date {
-  display: none;
-}
-.accordion-content {
-  display: none;
-}
-.accordion-content,
-.accordion-title {
-  clear: both;
-  width: 100%;
-}
-.accordion-title {
-  cursor: pointer;
+  margin: 0 0 0.5em;
   padding: 0;
-  font-size: 1.5em;
-  margin: 0;
-  background: #eee;
+  width: 100%;
   position: relative;
 }
-.position,
-.employer,
-.description {
+.accordion-item .date {
+  display: block;
+  left: 0;
+  width: 20%;
+  font-size: 1em;
+  position: absolute;
+  background: #eee;
+}
+.accordion-item .date .inner {
+  padding: 0.5em 1em;
+  text-align: center;
+}
+.accordion-item .date-end {
+  top: 0;
+}
+.accordion-item .date-start {
+  bottom: 0;
+}
+.accordion-item .accordion-title,
+.accordion-item .accordion-content {
   display: block;
   float: right;
   width: 80%;
 }
-.position {
+.accordion-item .accordion-content {
+  clear: both;
+  display: none;
+  padding: 1em;
+}
+.accordion-title {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin: 0;
+}
+.accordion-title .position,
+.accordion-title .employer,
+.accordion-title .description {
+  display: block;
+}
+.accordion-title .position {
   margin: 0;
   padding: 0;
 }
-.employer {
-  font-size: 0.7em;
+.accordion-title .employer {
+  font-size: 0.75em;
   margin: 0;
   padding: 0;
 }
@@ -54,29 +367,44 @@
 }
 .accordion-items-fun .accordion-item-fun {
   display: block;
-  background: #ddd;
+}
+.accordion-items-fun .accordion-item-fun .accordion-title {
+  background: #ccc;
+}
+.accordion-items-madjester .accordion-item-mj {
+  display: block;
+}
+.accordion-items-madjester .accordion-item-mj .accordion-title {
+  background: #000;
+  color: #fff;
 }
 .accordion-item-show .accordion-content {
   display: block;
 }
-@media only screen and (min-width: 600px) {
-  .accordion-item .date {
-    display: block;
-    float: left;
-    clear: left;
-    width: 20%;
-    font-size: 0.7em;
-    text-align: left;
-    position: absolute;
-    padding-top: 1em;
-    top: 0;
+@media only screen and (min-width: 40em) {
+  .accordion-options {
+    clear: both;
+  }
+  .accordion-options .accordion-option {
+    display: inline-block;
+    padding: 0.5em;
+  }
+  .accordion-item .position {
+    font-size: 2em;
   }
 }
 body {
-  background: #eee;
+  background: #ddd;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.accordion-title {
+.nav,
+.header,
+.accordion-option,
+.accordion-title,
+.date {
   font-family: "Oswald", sans-serif;
+}
+.accordion-item {
+  background: #ffffff;
 }

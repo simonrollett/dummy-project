@@ -7,18 +7,12 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-
-    <link href="assets/css/base.css" rel="stylesheet">
-
-<!--<link href="http://helpmeit.co.uk/client/hydreco/css/base.css" rel="stylesheet">-->
+<link href="assets/css/base.css" rel="stylesheet">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="assets/js/html5shiv.js"></script>
 <![endif]-->
-
-
-
 
 </head>
 
@@ -39,7 +33,7 @@
         <nav class="nav-wrapper">
             <div class="nav">
                 <div class="float-anchor">
-                    nav bar
+                    home | contact
                 </div>
             </div>
         </nav>
@@ -47,20 +41,42 @@
         <section class="body">
             <div class="content-main container">
 
-                <div class="accordion-options">
-                    <a href="#" class="accordion-options accordion-options-career">career</a>
-                    <a href="#" class="accordion-options accordion-options-fun">recreation</a>
-                    <a href="#" class="accordion-options accordion-options-achievements">achievements</a>
-                </div>
+                <ul class="accordion-options">
+                    <li class="accordion-option">
+                        <a href="#" class="accordion-options accordion-options-career">career +</a>
+                    </li>
+                    <li class="accordion-option">
+                        <a href="#" class="accordion-options accordion-options-fun">fun +</a>
+                    </li>
+                    <li class="accordion-option hide">
+                        <a href="#" class="accordion-options accordion-options-achievements">achievements +</a>
+                    </li>
+                    <li class="accordion-option">
+                        <a href="#" class="accordion-options accordion-options-madjester">madjester +</a>
+                    </li>
+                    <li class="accordion-option">
+                        <a href="#" class="accordion-options accordion-options-skills">skills +</a>
 
-                <div id="accordion" class="accordion accordion-items-career">
+                    </li>
+                </ul>
 
-                    <div class="accordion-item accordion-item-career accordion-item-show">
+
+                <ul id="accordion" class="accordion accordion-timeline accordion-items-career">
+
+                    <li class="accordion-item accordion-item-career accordion-item-show">
                         <div class="accordion-title">
                             <h2 class="position">Web Developer</h2>
                             <h3 class="employer">Qmetric Group Ltd</h3>
-                            <span class="date">Present day</span>
+
                         </div>
+
+                        <div class="date date-end">
+                            <div class="inner">Present day</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-11-2011</div>
+                        </div>
+
                         <div class="accordion-content time-work">
                             <div class="description">
                                 <p>
@@ -72,13 +88,19 @@
                             </div>
 
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="accordion-item accordion-item-fun">
+                    <li class="accordion-item accordion-item-mj">
                         <div class="accordion-title">
                             <h2 class="position">NEC Bike Show</h2>
                             <h3 class="employer">Birmingham</h3>
-                            <span class="date">01-11-2007</span>
+
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">13-11-207</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-11-2007</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -98,13 +120,18 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="accordion-item accordion-item-career">
+                    <li class="accordion-item accordion-item-career">
                         <div class="accordion-title">
                             <h2 class="position">Director</h2>
                             <h3 class="employer">DBA Design Services Ltd</h3>
-                            <span class="date">08-06-2005 to 02-10-11</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">02-10-2011</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">08-06-2005</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -124,14 +151,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
 
-                    <div class="accordion-item accordion-item-career">
+                    <li class="accordion-item accordion-item-career">
                         <div class="accordion-title">
                             <h2 class="position">Creative Director</h2>
                             <h3 class="employer">Triangle Computers</h3>
-                            <span class="date">01-05-1999</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">01-05-2004</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-05-1999</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -151,13 +183,18 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="accordion-item accordion-item-fun">
+                    <li class="accordion-item accordion-item-fun">
                         <div class="accordion-title">
                             <h2 class="position">Kickboxing</h2>
                             <h3 class="employer">Exeter</h3>
-                            <span class="date">01-12-2004</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">01-12-2004</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-12-2004</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -169,13 +206,18 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="accordion-item accordion-item-career">
+                    <li class="accordion-item accordion-item-mj">
                         <div class="accordion-title">
                             <h2 class="position">Director</h2>
                             <h3 class="employer">MadJester</h3>
-                            <span class="date">01-12-2004</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">01-12-2004</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-12-2004</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -195,14 +237,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
 
-                    <div class="accordion-item accordion-item-fun">
+                    <li class="accordion-item accordion-item-fun">
                         <div class="accordion-title">
                             <h2 class="position">Track day</h2>
                             <h3 class="employer">Donington</h3>
-                            <span class="date">01-12-2004</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">01-12-2004</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-12-2004</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -214,13 +261,18 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="accordion-item accordion-item-career">
+                    <li class="accordion-item accordion-item-career">
                         <div class="accordion-title">
                             <h2 class="position">Director</h2>
                             <h3 class="employer">Optifusion</h3>
-                            <span class="date">01-12-2004</span>
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">01-12-2004</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-12-2004</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">
@@ -240,11 +292,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
 
 
-                </div>
+                </ul>
 
 
             <!--
