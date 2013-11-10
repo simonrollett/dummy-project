@@ -11,10 +11,8 @@
 
   .accordion{
     margin:0;
-    padding:0;
+    padding:0 @gutter_half;
     list-style: none;
-
-
   }
 
 
@@ -25,14 +23,15 @@
     padding:0;
     width:100%;
     position:relative;
+    border-bottom:solid 1px @grayMidLight;
 
     .date{
       display:block;
       left:0;
-      width:20%;
-      font-size:@gutter;
+      font-size:@gutter_small;
       position:absolute;
-      background:#eee;
+      background:@dateColor;
+      .col-3;
 
       .inner{
         padding:@gutter_half @gutter;
@@ -52,8 +51,8 @@
     .accordion-title,
     .accordion-content{
       display:block;
-      float:right;
-      width:80%;
+      float:right !important;
+      .col-9;
     }
 
     .accordion-content{
@@ -63,8 +62,6 @@
     }
 
   }
-
-
 
 .accordion-title{
   cursor:pointer;
@@ -85,6 +82,7 @@
 
   .employer{
     font-size:@gutter_small;
+    font-weight:normal;
     margin:0;
     padding:0;
   }
@@ -136,24 +134,55 @@
 
 }
 
-
-
 @media only screen and(min-width:@tablet_small){
 
-    .accordion-options{
-        clear:both;
+  .accordion-options{
+      clear:both;
 
-        .accordion-option{
-            display:inline-block;
-            padding:@gutter_half;
-        }
+      .accordion-option{
+          display:inline-block;
+          padding:@gutter_half;
+      }
+  }
+
+  .accordion-item{
+
+    .position{
+        font-size:@gutter_x2;
     }
+
+
+    .employer{
+      font-size:@gutter;
+    }
+    .date{
+      font-size:@gutter;
+    }
+  }
+
+}
+
+@media only screen and(min-width:@desktop){
+
+  .accordion{
+    padding:0;
+  }
 
     .accordion-item{
+        .date{
+            .col-2;
+          }
 
-      .position{
-          font-size:@gutter_x2;
+        .accordion-title,
+        .accordion-content{
+            .col-10;
+          }
       }
-    }
+
+  }
+
+@media only screen and(min-width:@desktop_large){
+
+
 
 }

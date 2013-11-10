@@ -24,6 +24,13 @@
   @grayDark:   #333;
   @black: #000;
 
+  @dateColor: @grayLight;
+
+//texts
+  h1,h2,h3,h4,h5,h6{
+    margin:0;
+  }
+
 //percentages
   @_1_of_12: 8.3333%;
   @_2_of_12: 16.6666%;
@@ -46,3 +53,57 @@
   @text-shadow-default: -1px -1px 0 #000;
 
 //gradients
+.grad-1{
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+  //
+}
+
+.grad-Y(@color2,@color1){
+  background: @color2; /* Old browsers */
+  background: -moz-linear-gradient(top,  @color1 0%, @color2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@color1), color-stop(100%,@color2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, @color1 0%,@color2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, @color1 0%,@color2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, @color1 0%,@color2 100%); /* IE10+ */
+  background: linear-gradient(to bottom, @color1 0%,@color2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color1', endColorstr='@color2',GradientType=0 ); /* IE6-9 */
+  //
+}
+
+//rounded
+.rounded(@px){
+  -webkit-border-radius: @px;
+  -moz-border-radius: @px;
+  border-radius: @px;
+}
+
+.transparent_class(@opacity_percent){
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity_percent)";//IE 8
+  filter: alpha(opacity=@opacity_percent);//IE 5-7
+  -moz-opacity: @opacity_percent/100;//Netscape
+  -khtml-opacity: @opacity_percent/100;//Safari 1.x
+  opacity: @opacity_percent/100;//Good browsers
+}
+
+.box-shadow(@shadowSize){
+  -webkit-box-shadow: @shadowSize #666;
+  -moz-box-shadow: @shadowSize #666;
+  box-shadow: @shadowSize #666;
+}
+
+.box-shadow-disabled{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.text-shadow(@text-disabled){
+  text-shadow: @text-disabled;
+}

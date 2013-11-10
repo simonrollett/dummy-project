@@ -1,0 +1,39 @@
+// arrow-test
+
+  .date-end:after {
+    bottom: 0;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: @white;
+  }
+
+  //.date-start:after {
+  .date-end:after{
+    border-width: @gutter_half;
+    left: 50%;
+    margin-left: -@gutter_half;
+  }
+
+//
+
+  .date-start:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: @grayLight;
+  }
+
+  //.date-start:after {
+  .date-start:before{
+    border-width: @gutter_half;
+    left: 50%;
+    margin-left: -@gutter_half;
+  }

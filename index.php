@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Dummy Project</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<link href="assets/css/base.css" rel="stylesheet">
-
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="assets/js/html5shiv.js"></script>
-<![endif]-->
-
-</head>
-
-<body>
-
-    <div class="site-wrapper site-width">
-
-        <header class="header-wrapper">
-            <div class="header site-width">
-                <div class="float-anchor">
-                    <h1>logo bar</h1>
-                </div>
-            </div>
-        </header>
+    <?php include "header.php";?>
 
 
-
-        <nav class="nav-wrapper">
-            <div class="nav">
-                <div class="float-anchor">
-                    home | contact
-                </div>
-            </div>
-        </nav>
 
         <section class="body">
             <div class="content-main container">
@@ -61,17 +25,16 @@
                 </ul>
 
 
-                <ul id="accordion" class="accordion accordion-timeline accordion-items-career">
+                <ul class="accordion accordion-timeline accordion-items-career">
 
-                    <li class="accordion-item accordion-item-career accordion-item-show">
+                    <li class="accordion-item accordion-item-career">
                         <div class="accordion-title">
                             <h2 class="position">Web Developer</h2>
                             <h3 class="employer">Qmetric Group Ltd</h3>
-
                         </div>
 
                         <div class="date date-end">
-                            <div class="inner">Present day</div>
+                            <div class="inner">Today</div>
                         </div>
                         <div class="date date-start">
                             <div class="inner">01-11-2011</div>
@@ -330,21 +293,4 @@
             </div>
         </section>
 
-        <!-- Footer  -->
-
-        <footer class="footer-wrapper">
-            <div class="footer">
-                <div class="float-anchor">
-                    footer
-                </div>
-            </div>
-        </footer>
-    </div>
-
-
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="assets/js/accordion.js" type="text/javascript"></script>
-
-  </body>
-</html>
+        <?php include "footer.php";?>
