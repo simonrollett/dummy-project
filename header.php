@@ -18,22 +18,35 @@
 
 <body>
 
-
-
-<header class="header-wrapper">
+<header class="header-wrapper col-12">
     <div class="header site-width">
         <div class="float-anchor">
-            <h1>logo bar</h1>
+            <div class="col-9">
+                <div class="inner">
+                    <h1>logo bar</h1>
+                </div>
+            </div>
+            <div class="col-3 hidden-ts">
+                <div class="inner nav-menu">
+                    <a href="#" class="nav-link">Menu</a>
+                </div>
+            </div>
         </div>
     </div>
+    <nav class="nav-wrapper col-12">
+        <div class="nav site-width">
+            <div class="float-anchor">
+                <ul class="navigation navigation-site">
+                    <li class="nav-link-wrapper"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-link-wrapper"><a class="nav-link" href="about.php">About</a></li>
+                    <li class="nav-link-wrapper"><a class="nav-link" href="skills.php">Skills</a></li>
+                    <li class="nav-link-wrapper"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                    <li class="nav-link-wrapper"><a class="nav-link" href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 
-<nav class="nav-wrapper">
-    <div class="nav site-width">
-        <div class="float-anchor">
-            home | contact | skills | gallery
-        </div>
-    </div>
-</nav>
 
     <div class="site-wrapper site-width">

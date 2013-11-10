@@ -5,25 +5,14 @@
         <section class="body">
             <div class="content-main container">
 
-                <ul class="accordion-options">
-                    <li class="accordion-option">
-                        <a href="#" class="accordion-options accordion-options-career">career +</a>
-                    </li>
-                    <li class="accordion-option">
-                        <a href="#" class="accordion-options accordion-options-fun">fun +</a>
-                    </li>
-                    <li class="accordion-option hide">
-                        <a href="#" class="accordion-options accordion-options-achievements">achievements +</a>
-                    </li>
-                    <li class="accordion-option">
-                        <a href="#" class="accordion-options accordion-options-madjester">madjester +</a>
-                    </li>
-                    <li class="accordion-option">
-                        <a href="#" class="accordion-options accordion-options-skills">skills +</a>
-
-                    </li>
-                </ul>
-
+                <div class="float-anchor">
+                    <ul class="nav-row navigation navigation-accordion">
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Career</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-madjester">Madjester</a>
+                    </ul>
+                </div>
 
                 <ul class="accordion accordion-timeline accordion-items-career">
 

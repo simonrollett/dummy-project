@@ -318,8 +318,15 @@ div {
 .footer-wrapper {
   clear: both;
 }
+.float-anchor {
+  clear: both;
+  float: left;
+  width: 100%;
+}
 @media only screen and (min-width: 40em) {
-  
+  .hidden-ts {
+    display: none;
+  }
 }
 @media only screen and (min-width: 50em) {
   .site-width {
@@ -407,6 +414,7 @@ div {
   font-weight: normal;
   margin: 0;
   padding: 0;
+  color: #666666;
 }
 .description {
   line-height: 1.5em;
@@ -423,7 +431,11 @@ div {
 .accordion-items-madjester .accordion-item-mj {
   display: block;
 }
-.accordion-items-madjester .accordion-item-mj .accordion-title {
+.accordion-items-madjester .accordion-item-mj .employer {
+  color: #dddddd;
+}
+.accordion-item-mj .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-madjester {
   background: #000;
   color: #fff;
 }
@@ -448,10 +460,12 @@ div {
     font-size: 1em;
   }
 }
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 50em) {
   .accordion {
     padding: 0;
   }
+}
+@media only screen and (min-width: 75em) {
   .accordion-item .date {
     float: left;
     width: 16.6666%;
@@ -470,9 +484,9 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.nav,
+.nav-link,
 .header,
-.accordion-option,
+.navigation,
 .accordion-title,
 .date,
 .footer-text {
@@ -523,21 +537,95 @@ body {
   left: 50%;
   margin-left: -0.5em;
 }
-.accordion-options {
-  float: left;
-  width: 100%;
-  background: #dddddd;
-  margin: 0.5em 0;
-  padding: 0;
-  list-style: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
-.accordion-options .accordion-option {
+.grad-1 {
+  background: #ffffff;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #eeeeee));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+  /* IE6-9 */
+
+}
+.box-shadow-disabled {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.navigation {
   margin: 0;
   padding: 0;
+  list-style: none;
+  clear: both;
+}
+.navigation .nav-link-wrapper {
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+.navigation-site {
+  display: none;
+}
+.nav-row {
+  float: left;
+  width: 100%;
+}
+.nav-row .nav-link-wrapper {
+  float: left;
+}
+.navigation-accordion {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 1em;
+  border-bottom: solid 1px #cccccc;
+}
+.navigation-accordion .nav-selected {
+  background: red;
+}
+.navigation-accordion .nav-link {
+  color: #666666;
+}
+@media only screen and (min-width: 40em) {
+  .navigation-site {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  .navigation-site .nav-link-wrapper {
+    float: left;
+  }
 }
 @media only screen and (min-width: 75em) {
-  .accordion-options .accordion-option {
-    float: left;
+  .navigation-accordion .nav-link-wrapper {
     width: 16.6666%;
+    float: left;
   }
 }

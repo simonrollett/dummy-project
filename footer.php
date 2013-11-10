@@ -3,8 +3,7 @@
 <footer class="footer-wrapper">
     <div class="footer inner">
         <div class="float-anchor footer-text align-center">
-            &copy; S. J. Rollett. All rights reserved. Based on a concept by S.J. Rollett.
-            Directed and Produced by S.J. Rollett
+            &copy; S. J. Rollett. All rights reserved.
         </div>
     </div>
 </footer>

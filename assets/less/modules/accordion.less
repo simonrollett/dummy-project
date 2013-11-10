@@ -85,6 +85,7 @@
     font-weight:normal;
     margin:0;
     padding:0;
+    color:@grayMidDark;
   }
 }
 
@@ -118,11 +119,19 @@
     .accordion-item-mj{
         display:block;
 
-        .accordion-title{
-            background:#000;
-            color:#fff;
+        .employer{
+          color:@grayMidLight;
         }
+
     }
+
+}
+
+.accordion-item-mj .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-madjester{
+
+  background:#000;
+  color:#fff;
 
 }
 
@@ -162,11 +171,16 @@
 
 }
 
-@media only screen and(min-width:@desktop){
+@media only screen and(min-width:@tablet){
 
   .accordion{
     padding:0;
   }
+
+}
+@media only screen and(min-width:@desktop){
+
+
 
     .accordion-item{
         .date{
