@@ -443,7 +443,6 @@ div {
   color: #dddddd;
 }
 .accordion-items-madjester .accordion-item-mj {
-  overflow: auto;
   max-height: 1000px;
   transition: max-height 2s;
   -webkit-transition: max-height 2s;
