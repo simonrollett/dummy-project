@@ -7,10 +7,10 @@
 
                 <div class="float-anchor">
                     <ul class="nav-row navigation navigation-accordion">
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Career</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Work</a>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-madjester">Madjester</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-madjester">MadJester</a>
                     </ul>
                 </div>
 
