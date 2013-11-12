@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-=======
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/base.css" afterPath="$PROJECT_DIR$/assets/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.less" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/brand.less" afterPath="$PROJECT_DIR$/assets/less/modules/brand.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/navigation.less" afterPath="$PROJECT_DIR$/assets/less/modules/navigation.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dummy-project.iws" />
     <ignored path=".idea/workspace.xml" />
-<<<<<<< HEAD
     <file path="/Dummy.txt" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384110279073" ignored="false" />
     <file path="/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384110306599" ignored="false" />
     <file path="/accordion.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096727177" ignored="false" />
     <file path="/base.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384083158708" ignored="false" />
-    <file path="/brand.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384095789032" ignored="false" />
+    <file path="/brand.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384213474778" ignored="false" />
     <file path="/a.dummy" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384028769781" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/less/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
     <file path="/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/css/base.css" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384021251903" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/css/base.css" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384205554266" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855778914" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/js/form-javas.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855134037" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/includes/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855132519" ignored="false" />
-    <file path="/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096282791" ignored="false" />
+    <file path="/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384213680137" ignored="false" />
     <file path="/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855398864" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/less/tables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383859145608" ignored="false" />
     <file path="/tables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383859145140" ignored="false" />
@@ -33,7 +31,7 @@
     <file path="/create-configurator.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383867244904" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383869539913" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/js/tabs.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383868155971" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/js/form-functions.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383869509540" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/js/form-functions.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384194982881" ignored="false" />
     <file path="/dummy.xml" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384121588852" ignored="false" />
     <file path="/layout.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096118788" ignored="false" />
     <file path="/variables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384042896515" ignored="false" />
@@ -44,45 +42,17 @@
     <file path="/footer.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384039077232" ignored="false" />
     <file path="/arrows.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384042001830" ignored="false" />
     <file path="/accordion-options.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384044426526" ignored="false" />
-    <file path="/navigation.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384095560155" ignored="false" />
+    <file path="/navigation.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384213588847" ignored="false" />
     <file path="/accordion.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096024367" ignored="false" />
     <file path="$PROJECT_DIR$/../hydreco/includes/tab-dates.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384121648308" ignored="false" />
     <file path="/tab-dates.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384121645056" ignored="false" />
-=======
-    <file path="/accordion.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096024367" ignored="false" />
-    <file path="/navigation.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384095560155" ignored="false" />
-    <file path="/accordion-options.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384044426526" ignored="false" />
-    <file path="/arrows.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384042001830" ignored="false" />
-    <file path="/footer.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384039077232" ignored="false" />
-    <file path="/footer.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384045027818" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/less/variables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384029707458" ignored="false" />
-    <file path="/variables.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384028404290" ignored="false" />
-    <file path="/grid.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384019906347" ignored="false" />
-    <file path="/variables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384042896515" ignored="false" />
-    <file path="/layout.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096118788" ignored="false" />
-    <file path="/dummy.xml" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096284285" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/js/form-functions.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383869509540" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/js/tabs.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383868155971" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383869539913" ignored="false" />
-    <file path="/create-configurator.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383867244904" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/create-configurator.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383867324831" ignored="false" />
-    <file path="/tables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383859145140" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/less/tables.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383859145608" ignored="false" />
-    <file path="/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855398864" ignored="false" />
-    <file path="/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096282791" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/includes/header.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855132519" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/js/form-javas.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855134037" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/index-db.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383855778914" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/css/base.css" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384021251903" ignored="false" />
-    <file path="/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
-    <file path="$PROJECT_DIR$/../hydreco/less/brand-hydreco.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1383778475087" ignored="false" />
-    <file path="/a.dummy" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384028769781" ignored="false" />
-    <file path="/brand.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384095789032" ignored="false" />
-    <file path="/base.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384083158708" ignored="false" />
-    <file path="/accordion.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384096727177" ignored="false" />
-    <file path="/index.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384093010302" ignored="false" />
-    <file path="/Dummy.txt" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384080621295" ignored="false" />
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
+    <file path="$PROJECT_DIR$/../hydreco/js/modal.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384196003414" ignored="false" />
+    <file path="/modal.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384195288363" ignored="false" />
+    <file path="/form-functions.js" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384194691369" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/search-configurator.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384205493006" ignored="false" />
+    <file path="/search-configurator.php" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384205493006" ignored="false" />
+    <file path="$PROJECT_DIR$/../hydreco/less/forms.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384205550483" ignored="false" />
+    <file path="/forms.less" changelist="a3724233-92a8-460c-beed-2e1a403a46e0" time="1384205504920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,23 +74,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5116505">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-                <state line="11" column="125" selection-start="593" selection-end="605" vertical-scroll-proportion="0.14030612">
-=======
-                <state line="9" column="51" selection-start="285" selection-end="285" vertical-scroll-proportion="0.11335012">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
+                <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="accordion.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="accordion.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="51" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
+                <state line="27" column="11" selection-start="653" selection-end="826" vertical-scroll-proportion="0.3375">
                   <folding />
                 </state>
               </provider>
@@ -129,7 +95,7 @@
           <file leaf-file-name="navigation.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
+                <state line="46" column="23" selection-start="528" selection-end="528" vertical-scroll-proportion="-21.2">
                   <folding />
                 </state>
               </provider>
@@ -138,7 +104,7 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="6" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+                <state line="30" column="26" selection-start="852" selection-end="852" vertical-scroll-proportion="-18.75">
                   <folding />
                 </state>
               </provider>
@@ -165,7 +131,7 @@
           <file leaf-file-name="brand.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/brand.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="9" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+                <state line="22" column="17" selection-start="344" selection-end="344" vertical-scroll-proportion="-13.2">
                   <folding />
                 </state>
               </provider>
@@ -178,12 +144,15 @@
           <file leaf-file-name="accordion.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
               <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-                <state line="177" column="3" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.6468085">
-=======
-                <state line="136" column="23" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.37037036">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
-                  <folding />
+                <state line="168" column="14" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.3480851">
+                  <folding>
+                    <marker date="1384193465000" expanded="true" signature="1784:1964" placeholder="{...}" />
+                    <marker date="1384193465000" expanded="true" signature="1798:1939" placeholder="{...}" />
+                    <marker date="1384193465000" expanded="true" signature="1914:1937" placeholder="{...}" />
+                    <marker date="1384193465000" expanded="true" signature="2040:2201" placeholder="{...}" />
+                    <marker date="1384193465000" expanded="true" signature="2071:2202" placeholder="{...}" />
+                    <marker date="1384193465000" expanded="true" signature="2184:2199" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -216,8 +185,12 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -231,13 +204,13 @@
         <option value="$PROJECT_DIR$/assets/less/modules/footer.less" />
         <option value="$PROJECT_DIR$/assets/less/base.less" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/assets/less/modules/layout.less" />
+        <option value="$PROJECT_DIR$/assets/less/modules/accordion.less" />
         <option value="$PROJECT_DIR$/assets/less/modules/brand.less" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/assets/less/modules/navigation.less" />
         <option value="$PROJECT_DIR$/assets/js/accordion.js" />
-        <option value="$PROJECT_DIR$/assets/less/modules/layout.less" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/assets/less/modules/accordion.less" />
-        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -245,7 +218,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="2560" />
-    <option name="height" value="1361" />
+    <option name="height" value="1348" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -387,15 +360,11 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="Class" />
-      <method>
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <TestRunner />
+      <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method>
-        <option name="PhingTarget" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <list size="0" />
   </component>
@@ -409,18 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1361" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1348" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1821798" sideWeight="0.67019546" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18232484" sideWeight="0.67019546" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -428,7 +393,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -458,18 +422,26 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -481,6 +453,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -488,6 +461,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../MadJester2013/wp-content/themes/responsive/css/modules/brand.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="43" selection-end="540" vertical-scroll-proportion="0.012615643" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="1" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.8876872" />
@@ -500,8 +478,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/footer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" />
-<<<<<<< HEAD
+        <state line="4" column="16" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/arrows.less">
@@ -509,13 +488,13 @@
         <state line="30" column="35" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-=======
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/grid.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="1" selection-start="2715" selection-end="2715" vertical-scroll-proportion="-165.0" />
+        <state line="275" column="1" selection-start="2715" selection-end="2715" vertical-scroll-proportion="-165.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/variables.less">
@@ -525,42 +504,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/less/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="285" selection-end="285" vertical-scroll-proportion="0.11335012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="5" column="54" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-=======
-        <state line="38" column="51" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="8" column="9" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-=======
-        <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
-=======
-        <state line="18" column="6" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
+        <state line="7" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -572,53 +518,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/base.less">
+    <entry file="file://$PROJECT_DIR$/assets/less/modules/layout.less">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="107" column="12" selection-start="1187" selection-end="1196" vertical-scroll-proportion="0.0">
-=======
-        <state line="7" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/brand.less">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="18" column="6" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-=======
-        <state line="8" column="9" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="3" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.6468085">
-=======
-    <entry file="file://$PROJECT_DIR$/assets/less/modules/arrows.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/modules/layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="12" selection-start="1187" selection-end="1196" vertical-scroll-proportion="0.0">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
+        <state line="22" column="17" selection-start="344" selection-end="344" vertical-scroll-proportion="-13.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="11" column="125" selection-start="593" selection-end="605" vertical-scroll-proportion="0.14030612">
-=======
-        <state line="136" column="23" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.37037036">
->>>>>>> 09a982e25e3c80f15b590d695aa56a47ca7d0fe2
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="852" selection-end="852" vertical-scroll-proportion="-18.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="14" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.3480851">
+          <folding>
+            <marker date="1384193465000" expanded="true" signature="1784:1964" placeholder="{...}" />
+            <marker date="1384193465000" expanded="true" signature="1798:1939" placeholder="{...}" />
+            <marker date="1384193465000" expanded="true" signature="1914:1937" placeholder="{...}" />
+            <marker date="1384193465000" expanded="true" signature="2040:2201" placeholder="{...}" />
+            <marker date="1384193465000" expanded="true" signature="2071:2202" placeholder="{...}" />
+            <marker date="1384193465000" expanded="true" signature="2184:2199" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="528" selection-end="528" vertical-scroll-proportion="-21.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="11" selection-start="653" selection-end="826" vertical-scroll-proportion="0.3375">
           <folding />
         </state>
       </provider>

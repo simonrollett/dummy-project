@@ -23,7 +23,7 @@
         <div class="float-anchor">
             <div class="col-9">
                 <div class="inner">
-                    <h1>logo bar</h1>
+                    <h1>S.J.Rollett</h1>
                 </div>
             </div>
             <div class="col-3 hidden-ts">

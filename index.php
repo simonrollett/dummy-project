@@ -1,7 +1,5 @@
     <?php include "header.php";?>
 
-
-
         <section class="body">
             <div class="content-main container">
 
