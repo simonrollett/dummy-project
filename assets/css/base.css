@@ -428,7 +428,7 @@ div {
 .accordion-items-fun .accordion-item-fun .accordion-title {
   background: #ccc;
 }
-.accordion-item-mj {
+.accordion-item-achievement {
   display: block;
   max-height: 0;
   overflow: hidden;
@@ -439,10 +439,10 @@ div {
   -moz-transition: max-height 1s;
   -o-transition: max-height 1s;
 }
-.accordion-item-mj .employer {
+.accordion-item-achievement .employer {
   color: #dddddd;
 }
-.accordion-items-madjester .accordion-item-mj {
+.accordion-items-achievements .accordion-item-achievement {
   max-height: 1000px;
   transition: max-height 2s;
   -webkit-transition: max-height 2s;
@@ -450,8 +450,8 @@ div {
   -o-transition: max-height 2s;
   margin-top: 0;
 }
-.accordion-item-mj .accordion-title,
-.navigation-accordion .nav-selected .accordion-options-madjester {
+.accordion-item-achievement .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-achievements {
   background: #000;
   color: #fff;
 }

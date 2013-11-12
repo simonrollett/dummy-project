@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/base.css" afterPath="$PROJECT_DIR$/assets/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/accordion.js" afterPath="$PROJECT_DIR$/assets/js/accordion.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.less" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="dummy-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +63,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5116505">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="51" selection-start="285" selection-end="285" vertical-scroll-proportion="0.11335012">
+                <state line="11" column="129" selection-start="609" selection-end="609" vertical-scroll-proportion="0.13853905">
                   <folding />
                 </state>
               </provider>
@@ -74,7 +75,7 @@
           <file leaf-file-name="accordion.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="51" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
+                <state line="38" column="61" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -129,10 +130,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="accordion.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="accordion.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="136" column="23" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.37037036">
+                <state line="161" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.22222222">
                   <folding />
                 </state>
               </provider>
@@ -183,9 +184,9 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/assets/less/modules/brand.less" />
         <option value="$PROJECT_DIR$/assets/less/modules/navigation.less" />
-        <option value="$PROJECT_DIR$/assets/js/accordion.js" />
         <option value="$PROJECT_DIR$/assets/less/modules/layout.less" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/assets/js/accordion.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/less/modules/accordion.less" />
       </list>
@@ -461,20 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="285" selection-end="285" vertical-scroll-proportion="0.11335012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="51" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
@@ -522,9 +509,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="61" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/accordion.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="23" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.37037036">
+        <state line="161" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.22222222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="129" selection-start="609" selection-end="609" vertical-scroll-proportion="0.13853905">
           <folding />
         </state>
       </provider>

@@ -7,10 +7,9 @@
 
                 <div class="float-anchor">
                     <ul class="nav-row navigation navigation-accordion">
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Career</a>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Work</a>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-madjester">Madjester</a>
                     </ul>
                 </div>
 
@@ -26,7 +25,7 @@
                             <div class="inner">Today</div>
                         </div>
                         <div class="date date-start">
-                            <div class="inner">01-11-2011</div>
+                            <div class="inner">OCT 2011</div>
                         </div>
 
                         <div class="accordion-content time-work">
@@ -49,10 +48,42 @@
 
                         </div>
                         <div class="date date-end">
-                            <div class="inner">13-11-207</div>
+                            <div class="inner">13-NOV-207</div>
                         </div>
                         <div class="date date-start">
-                            <div class="inner">01-11-2007</div>
+                            <div class="inner">01-NOV-2007</div>
+                        </div>
+                        <div class="accordion-content time-work">
+                            <div class="description">
+                                <p>
+                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+                                    Nam mi. Proin viverra leo ut odio.
+                                </p>
+                            </div>
+                            <div class="accordion-footer">
+                                <ul class="accordion-footer-references">
+                                    <li>Jim Chapman</li>
+                                </ul>
+                                <div class="accordion-footer-appendix">
+                                    Some info here
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion-item accordion-item-achievement">
+                        <div class="accordion-title">
+                            <h2 class="position">Achievement</h2>
+                            <h3 class="employer">So there</h3>
+
+                        </div>
+                        <div class="date date-end">
+                            <div class="inner">13-NOV-207</div>
+                        </div>
+                        <div class="date date-start">
+                            <div class="inner">01-NOV-2007</div>
                         </div>
                         <div class="accordion-content time-work">
                             <div class="description">

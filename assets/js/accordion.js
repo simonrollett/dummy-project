@@ -33,6 +33,12 @@ $(document).ready(function($) {
             toggleAccordionView("accordion-items-madjester",this);
         });
 
+    // mj
+        $(".accordion-options-achievements").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-achievements",this);
+        });
+
     // nav
         $(".nav-menu .nav-link").click(function (e) { // binding onclick
             e.preventDefault();
