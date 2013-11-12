@@ -17,27 +17,26 @@ $(document).ready(function($) {
 
     $(".accordion-title").click(function (e) { // binding onclick
         e.preventDefault();
-        hide_accordion_items("accordion-item-show");
-        $(this).closest(".accordion-item").addClass("accordion-item-show");
+        $(this).closest(".accordion-item").toggleClass("accordion-item-show");
     });
 
-    // only fun
-        $(".accordion-options-fun").click(function (e) { // binding onclick
+    // achievements
+    $(".accordion-options-achievements").click(function (e) { // binding onclick
+        e.preventDefault();
+        toggleAccordionView("accordion-items-achievements",this);
+    });
+
+    // work
+        $(".accordion-options-work").click(function (e) { // binding onclick
             e.preventDefault();
-            toggleAccordionView("accordion-items-fun",this);
+            toggleAccordionView("accordion-items-work",this);
         });
 
-    // mj
-        $(".accordion-options-madjester").click(function (e) { // binding onclick
-            e.preventDefault();
-            toggleAccordionView("accordion-items-madjester",this);
-        });
-
-    // mj
-        $(".accordion-options-achievements").click(function (e) { // binding onclick
-            e.preventDefault();
-            toggleAccordionView("accordion-items-achievements",this);
-        });
+    // fun
+    $(".accordion-options-fun").click(function (e) { // binding onclick
+        e.preventDefault();
+        toggleAccordionView("accordion-items-fun",this);
+    });
 
     // nav
         $(".nav-menu .nav-link").click(function (e) { // binding onclick
