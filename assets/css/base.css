@@ -512,7 +512,7 @@ body {
   background: #dddddd;
 }
 .nav-wrapper {
-  background: #cccccc;
+  background: #000;
 }
 .accordion-item {
   background: #ffffff;
@@ -624,7 +624,7 @@ h6 {
   border-bottom: solid 1px #cccccc;
 }
 .navigation-accordion .nav-selected {
-  background: red;
+  background: #cccccc;
 }
 .navigation-accordion .nav-link {
   color: #666666;
@@ -634,6 +634,12 @@ h6 {
     display: block;
     float: left;
     width: 100%;
+  }
+  .navigation-site .nav-link {
+    color: #ffffff;
+  }
+  .navigation-site .nav-link:hover {
+    background: #333333;
   }
   .navigation-site .nav-link-wrapper {
     float: left;

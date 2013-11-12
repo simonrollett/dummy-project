@@ -15,6 +15,7 @@
   }
 
 }
+
 .nav-link{
   display:block;
   padding:@gutter_half @gutter;
@@ -38,13 +39,12 @@
 
 .navigation-accordion{
   width:@_12_of_12;
-  //background:@grayMidLight;
   background:@white;
   margin-top:@gutter;
   border-bottom:solid 1px @grayMid;
 
   .nav-selected{
-    background:red;
+    background:@grayMid;
   }
 
   .nav-link{
@@ -57,6 +57,14 @@
 
   .navigation-site{
     display:block;
+
+    .nav-link{
+      color:@white;
+
+      &:hover{
+        background:@grayDark;
+      }
+    }
 
     .nav-row;
   }

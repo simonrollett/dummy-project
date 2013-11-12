@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3724233-92a8-460c-beed-2e1a403a46e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/base.css" afterPath="$PROJECT_DIR$/assets/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/accordion.js" afterPath="$PROJECT_DIR$/assets/js/accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/accordion.less" afterPath="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/brand.less" afterPath="$PROJECT_DIR$/assets/less/modules/brand.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/modules/navigation.less" afterPath="$PROJECT_DIR$/assets/less/modules/navigation.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="dummy-project.iws" />
@@ -66,7 +69,7 @@
           <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="129" selection-start="609" selection-end="609" vertical-scroll-proportion="0.13853905">
+                <state line="9" column="129" selection-start="607" selection-end="607" vertical-scroll-proportion="0.13010204">
                   <folding />
                 </state>
               </provider>
@@ -84,7 +87,7 @@
           <file leaf-file-name="navigation.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
+                <state line="22" column="1" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -187,8 +190,8 @@
         <option value="$PROJECT_DIR$/assets/less/modules/layout.less" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/assets/js/accordion.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/less/modules/accordion.less" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -327,6 +330,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="6fc70f26-85e3-4099-821c-587c39f895bb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/less/modules" />
@@ -361,13 +375,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1361" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18232484" sideWeight="0.67019546" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18232484" sideWeight="0.67019546" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -464,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/modules/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="154" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="22" column="1" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -525,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="129" selection-start="609" selection-end="609" vertical-scroll-proportion="0.13853905">
+        <state line="9" column="129" selection-start="607" selection-end="607" vertical-scroll-proportion="0.13010204">
           <folding />
         </state>
       </provider>
