@@ -437,7 +437,6 @@ div {
   max-height: 0;
   overflow: hidden;
   border-bottom: 0;
-  margin-top: -0.5em;
 }
 .accordion-items-fun .accordion-item-fun .accordion-title {
   background: #ccc;
@@ -450,7 +449,6 @@ div {
   max-height: 0;
   overflow: hidden;
   border-bottom: 0;
-  margin-top: -0.5em;
 }
 .accordion-item-achievement .employer {
   color: #dddddd;
