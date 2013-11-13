@@ -361,7 +361,7 @@ div {
   padding: 0;
   width: 100%;
   position: relative;
-  border-bottom: solid 1px #dddddd;
+  border-bottom: solid 1px #cccccc;
 }
 .accordion-item .date {
   display: block;
@@ -369,6 +369,7 @@ div {
   font-size: 0.75em;
   position: absolute;
   background: #eeeeee;
+  color: #666666;
   float: left;
   width: 25%;
 }
@@ -393,6 +394,13 @@ div {
   clear: both;
   display: none;
   padding: 1em;
+}
+.nav-title {
+  background: #eeeeee;
+}
+.nav-title .nav-link {
+  color: #666666;
+  cursor: default;
 }
 .accordion-title {
   cursor: pointer;
@@ -610,39 +618,49 @@ h6 {
 .navigation-site {
   display: none;
 }
+.navigation-site .nav-link {
+  color: #ffffff;
+}
+.navigation-site .nav-link:hover {
+  background: #333333;
+}
 .nav-row {
   float: left;
-  width: 100%;
 }
 .nav-row .nav-link-wrapper {
   float: left;
 }
+.nav-link {
+  color: #000000;
+  font-size: 0.75em;
+}
+.navigation-accordion-wrapper {
+  margin: 0.5em 0.5em 0;
+}
 .navigation-accordion {
-  width: 100%;
   background: #ffffff;
   margin-top: 1em;
   border-bottom: solid 1px #cccccc;
+  width: 100%;
 }
 .navigation-accordion .nav-selected {
   background: #cccccc;
-}
-.navigation-accordion .nav-link {
-  color: #666666;
 }
 @media only screen and (min-width: 40em) {
   .navigation-site {
     display: block;
     float: left;
-    width: 100%;
-  }
-  .navigation-site .nav-link {
-    color: #ffffff;
-  }
-  .navigation-site .nav-link:hover {
-    background: #333333;
   }
   .navigation-site .nav-link-wrapper {
     float: left;
+  }
+  .navigation-accordion .nav-link {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 50em) {
+  .navigation-accordion-wrapper {
+    margin: 0.5em 0;
   }
 }
 @media only screen and (min-width: 75em) {
