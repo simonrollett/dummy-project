@@ -15,6 +15,8 @@ function toggleAccordionView($class_name,$event){
 
 $(document).ready(function($) {
 
+    //general expand from title click
+
     $(".accordion-title").click(function (e) { // binding onclick
         e.preventDefault();
         $(this).closest(".accordion-item").toggleClass("accordion-item-show");
@@ -44,7 +46,5 @@ $(document).ready(function($) {
             $(".navigation-site").toggleClass("show");
             $(this).parent().toggleClass("nav-selected");
         });
-
-
 
 });

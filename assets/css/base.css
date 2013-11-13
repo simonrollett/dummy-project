@@ -352,12 +352,15 @@ div {
 }
 .accordion-item {
   float: left;
-  display: none;
-  margin: 0 0 0.5em;
+  max-height: 0px;
+  overflow-y: hidden;
   padding: 0;
   width: 100%;
   position: relative;
-  border-bottom: solid 1px #cccccc;
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
 }
 .accordion-item .date {
   display: block;
@@ -388,8 +391,11 @@ div {
 }
 .accordion-item .accordion-content {
   clear: both;
-  display: none;
   padding: 1em;
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
 }
 .nav-title {
   background: #eeeeee;
@@ -428,9 +434,16 @@ div {
 }
 .accordion-items-fun .accordion-item-fun {
   display: block;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 0;
+  margin-top: -0.5em;
 }
 .accordion-items-fun .accordion-item-fun .accordion-title {
   background: #ccc;
+}
+.accordion-items-fun .accordion-item-fun .employer {
+  color: #dddddd;
 }
 .accordion-item-achievement {
   display: block;
@@ -438,29 +451,48 @@ div {
   overflow: hidden;
   border-bottom: 0;
   margin-top: -0.5em;
-  transition: max-height 1s;
-  -webkit-transition: max-height 1s;
-  -moz-transition: max-height 1s;
-  -o-transition: max-height 1s;
 }
 .accordion-item-achievement .employer {
   color: #dddddd;
 }
 .accordion-items-achievements .accordion-item-achievement {
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
   max-height: 1000px;
-  transition: max-height 2s;
-  -webkit-transition: max-height 2s;
-  -moz-transition: max-height 2s;
-  -o-transition: max-height 2s;
   margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
 }
 .accordion-item-achievement .accordion-title,
 .navigation-accordion .nav-selected .accordion-options-achievements {
   background: #000;
   color: #fff;
 }
-.accordion-item-show .accordion-content {
+.accordion-item-fun {
   display: block;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 0;
+}
+.accordion-item-fun .employer {
+  color: #dddddd;
+}
+.accordion-items-fun .accordion-item-fun {
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  max-height: 1000px;
+  margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
+}
+.accordion-item-fun .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-fun {
+  background: #cccccc;
+  color: #fff;
 }
 @media only screen and (min-width: 40em) {
   .accordion-options {

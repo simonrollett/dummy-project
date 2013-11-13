@@ -1,4 +1,26 @@
 // accordion options
+
+// expand effect
+.expand(@seconds){
+  transition:max-height @seconds;
+  -webkit-transition:max-height @seconds;
+  -moz-transition:max-height @seconds;
+  -o-transition:max-height @seconds;
+}
+
+.collapse(@seconds){
+  transition:max-height @seconds;
+  -webkit-transition:max-height @seconds;
+  -moz-transition:max-height @seconds;
+  -o-transition:max-height @seconds;
+  max-height:1000px;
+  margin-top:0;
+  margin:0 0 @gutter_half;
+  border-bottom:solid 1px @grayMid;
+}
+
+// end expand effect
+
   .accordion-options{
       clear:both;
 
@@ -18,12 +40,13 @@
 
   .accordion-item{
     float:left;
-    display:none;
-    margin:0 0 @gutter_half;
+    max-height:0px;
+    overflow-y:hidden;
     padding:0;
     width:100%;
     position:relative;
-    border-bottom:solid 1px @grayMid;
+
+    .expand(1s);
 
     .date{
       display:block;
@@ -40,8 +63,6 @@
       }
 
     }
-
-
 
     .date-end{
       top:0;
@@ -60,8 +81,9 @@
 
     .accordion-content{
       clear:both;
-      display:none;
       padding:@gutter;
+
+      .expand(1s);
     }
 
   }
@@ -121,12 +143,21 @@
 .accordion-items-fun{
 
     .accordion-item-fun{
-        display:block;
+      display:block;
+      max-height:0;
+      overflow:hidden;
+      border-bottom:0;
+      margin-top:-@gutter_half;
 
-        .accordion-title{
-            background:#ccc;
 
-        }
+
+      .accordion-title{
+          background:#ccc;
+      }
+
+      .employer{
+        color:@grayMidLight;
+      }
     }
 
 }
@@ -144,47 +175,52 @@
           color:@grayMidLight;
         }
 
-        transition:max-height 1s;
-        -webkit-transition:max-height 1s;
-        -moz-transition:max-height 1s;
-        -o-transition:max-height 1s;
+    }
+
+    .accordion-items-achievements{
+
+        .accordion-item-achievement{
+
+            .collapse(1s);
+
+        }
 
     }
 
-.accordion-items-achievements{
-
-    .accordion-item-achievement{
-        max-height:1000px;
-
-        transition:max-height 2s;
-        -webkit-transition:max-height 2s;
-        -moz-transition:max-height 2s;
-        -o-transition:max-height 2s;
-
-        margin-top:0;
-
+    .accordion-item-achievement .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-achievements{
+      background:#000;
+      color:#fff;
     }
-
-}
-
-.accordion-item-achievement .accordion-title,
-.navigation-accordion .nav-selected .accordion-options-achievements{
-  background:#000;
-  color:#fff;
-
-}
 
 //fun ===============================
 
+.accordion-item-fun{
+  display:block;
+  max-height:0;
+  overflow:hidden;
+  border-bottom:0;
 
-
-
-.accordion-item-show{
-
-  .accordion-content{
-    display:block;
+  .employer{
+    color:@grayMidLight;
   }
 
+}
+
+.accordion-items-fun{
+
+  .accordion-item-fun{
+
+    .collapse(1s);
+
+  }
+
+}
+
+.accordion-item-fun .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-fun{
+  background:@grayMid;
+  color:#fff;
 }
 
 @media only screen and(min-width:@tablet_small){
