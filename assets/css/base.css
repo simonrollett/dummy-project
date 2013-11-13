@@ -620,6 +620,7 @@ h6 {
 }
 .navigation-site .nav-link {
   color: #ffffff;
+  font-size: 1em;
 }
 .navigation-site .nav-link:hover {
   background: #333333;
@@ -654,7 +655,7 @@ h6 {
   .navigation-site .nav-link-wrapper {
     float: left;
   }
-  .navigation-accordion .nav-link {
+  .nav-link {
     font-size: 1em;
   }
 }
