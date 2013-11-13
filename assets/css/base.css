@@ -394,6 +394,9 @@ div {
   display: none;
   padding: 1em;
 }
+.nav-link-date {
+  background: #eeeeee;
+}
 .accordion-title {
   cursor: pointer;
   padding: 0.5em 1em;
