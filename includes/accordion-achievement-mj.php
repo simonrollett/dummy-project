@@ -5,7 +5,7 @@
 
     </div>
     <div class="date date-end">
-        <div class="inner">13-NOV-207</div>
+        <div class="inner">13-NOV-2007</div>
     </div>
     <div class="date date-start">
         <div class="inner">01-NOV-2007</div>

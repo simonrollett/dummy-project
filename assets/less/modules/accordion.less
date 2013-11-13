@@ -23,14 +23,15 @@
     padding:0;
     width:100%;
     position:relative;
-    border-bottom:solid 1px @grayMidLight;
+    border-bottom:solid 1px @grayMid;
 
     .date{
       display:block;
       left:0;
       font-size:@gutter_small;
       position:absolute;
-      background:@dateColor;
+      background:@date_color_bg;
+      color:@date_color;
       .col-3;
 
       .inner{
@@ -65,9 +66,16 @@
 
   }
 
-.nav-link-date{
-  background:@dateColor;
-}
+  .nav-title{
+    background:@date_color_bg;
+
+    .nav-link{
+        color:@date_color;
+        cursor:default;
+    }
+
+  }
+
 
 .accordion-title{
   cursor:pointer;

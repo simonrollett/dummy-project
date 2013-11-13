@@ -3,9 +3,9 @@
         <section class="body">
             <div class="content-main container">
 
-                <div class="float-anchor">
+                <div class="navigation-accordion-wrapper">
                     <ul class="nav-row navigation navigation-accordion">
-                        <li class="nav-link-wrapper align-center"><a class="nav-link nav-link-date" href="#">DATE:</a></li>
+                        <li class="nav-link-wrapper align-center nav-title"><a class="nav-link" href="#">DATE:</a></li>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a></li>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-work">Work</a></li>
                         <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a></li>
