@@ -49,4 +49,5 @@
 </header>
 
 
+<div class="clear-anchor">
     <div class="site-wrapper site-width">
