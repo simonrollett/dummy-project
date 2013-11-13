@@ -37,7 +37,7 @@
         <div class="nav site-width">
             <div class="float-anchor">
                 <ul class="navigation navigation-site">
-                    <li class="nav-link-wrapper"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-link-wrapper"><a class="nav-link" href="../../index.php">Home</a></li>
                     <li class="nav-link-wrapper"><a class="nav-link" href="about.php">About</a></li>
                     <li class="nav-link-wrapper"><a class="nav-link" href="skills.php">Skills</a></li>
                     <li class="nav-link-wrapper"><a class="nav-link" href="gallery.php">Gallery</a></li>

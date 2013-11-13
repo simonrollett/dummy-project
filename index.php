@@ -1,281 +1,32 @@
-    <?php include "header.php";?>
+    <?php include "includes/header.php";?>
 
         <section class="body">
             <div class="content-main container">
 
                 <div class="float-anchor">
                     <ul class="nav-row navigation navigation-accordion">
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-career">Work</a>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a>
+                        <li class="nav-link-wrapper"><a class="nav-link" href="#">Date</a></li>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-achievements">Achievements</a></li>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-work">Work</a></li>
+                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a></li>
                     </ul>
                 </div>
 
-                <ul class="accordion accordion-timeline accordion-items-career">
+                <ul class="accordion accordion-timeline accordion-items-work">
 
-                    <li class="accordion-item accordion-item-career">
-                        <div class="accordion-title">
-                            <h2 class="position">Web Developer</h2>
-                            <h3 class="employer">Qmetric Group Ltd</h3>
-                        </div>
+                    <?php include "includes/accordion-work-qmetric.php";?>
 
-                        <div class="date date-end">
-                            <div class="inner">Today</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">OCT 2011</div>
-                        </div>
+                    <?php include "includes/accordion-work-dba.php";?>
 
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
+                    <?php include "includes/accordion-work-optifusion.php";?>
 
-                        </div>
-                    </li>
+                    <?php include "includes/accordion-work-triangle.php";?>
 
-                    <li class="accordion-item accordion-item-mj">
-                        <div class="accordion-title">
-                            <h2 class="position">NEC Bike Show</h2>
-                            <h3 class="employer">Birmingham</h3>
+                    <?php include "includes/accordion-fun-kb-1.php";?>
 
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">13-NOV-207</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-NOV-2007</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Jim Chapman</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                    <?php include "includes/accordion-fun-donington.php";?>
 
-                    <li class="accordion-item accordion-item-achievement">
-                        <div class="accordion-title">
-                            <h2 class="position">Achievement</h2>
-                            <h3 class="employer">So there</h3>
-
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">13-NOV-207</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-NOV-2007</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Jim Chapman</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="accordion-item accordion-item-career">
-                        <div class="accordion-title">
-                            <h2 class="position">Director</h2>
-                            <h3 class="employer">DBA Design Services Ltd</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">02-10-2011</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">08-06-2005</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Sarah Daykin</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li class="accordion-item accordion-item-career">
-                        <div class="accordion-title">
-                            <h2 class="position">Creative Director</h2>
-                            <h3 class="employer">Triangle Computers</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">01-05-2004</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-05-1999</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Jim Chapman</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="accordion-item accordion-item-fun">
-                        <div class="accordion-title">
-                            <h2 class="position">Kickboxing</h2>
-                            <h3 class="employer">Exeter</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="accordion-item accordion-item-mj">
-                        <div class="accordion-title">
-                            <h2 class="position">Director</h2>
-                            <h3 class="employer">MadJester</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Jim Chapman</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li class="accordion-item accordion-item-fun">
-                        <div class="accordion-title">
-                            <h2 class="position">Track day</h2>
-                            <h3 class="employer">Donington</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="accordion-item accordion-item-career">
-                        <div class="accordion-title">
-                            <h2 class="position">Director</h2>
-                            <h3 class="employer">Optifusion</h3>
-                        </div>
-                        <div class="date date-end">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="date date-start">
-                            <div class="inner">01-12-2004</div>
-                        </div>
-                        <div class="accordion-content time-work">
-                            <div class="description">
-                                <p>
-                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                                    Nam mi. Proin viverra leo ut odio.
-                                </p>
-                            </div>
-                            <div class="accordion-footer">
-                                <ul class="accordion-footer-references">
-                                    <li>Ref</li>
-                                </ul>
-                                <div class="accordion-footer-appendix">
-                                    Some info here
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-
+                    <?php include "includes/accordion-achievement-mj.php";?>
 
                 </ul>
 
@@ -311,4 +62,4 @@
             </div>
         </section>
 
-        <?php include "footer.php";?>
+        <?php include "includes/footer.php";?>
