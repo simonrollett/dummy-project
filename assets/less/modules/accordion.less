@@ -17,7 +17,13 @@
   max-height:1000px;
   margin-top:0;
   margin:0 0 @gutter_half;
-  border-bottom:solid 1px @grayMid;
+}
+
+.accordion-item-common{
+    display:block;
+    max-height:0;
+    overflow:hidden;
+    border-bottom:0;
 }
 
 // end effect
@@ -48,7 +54,7 @@
 
   .accordion-item{
     float:left;
-
+    border-bottom:solid 1px @grayMid;
     padding:0;
     width:100%;
     position:relative;
@@ -153,10 +159,8 @@
 //achievements ===============================
 
     .accordion-item-achievement{
-        display:block;
-        max-height:0;
-        overflow:hidden;
-        border-bottom:0;
+
+        .accordion-item-common;
 
         .employer{
           color:@grayMidLight;
@@ -169,6 +173,8 @@
         .accordion-item-achievement{
 
             .collapse(1s);
+
+            border-bottom:solid 1px @grayMid;
 
         }
 
@@ -183,10 +189,8 @@
 //work ===============================
 
     .accordion-item-work{
-      display:block;
-      max-height:0;
-      overflow:hidden;
-      border-bottom:0;
+
+      .accordion-item-common;
 
       .employer{
         color:@grayMidDark;
@@ -199,6 +203,8 @@
       .accordion-item-work{
 
         .collapse(1s);
+
+        border-bottom:solid 1px @grayMid;
 
       }
 
@@ -213,13 +219,11 @@
 //fun ===============================
 
     .accordion-item-fun{
-      display:block;
-      max-height:0;
-      overflow:hidden;
-      border-bottom:0;
+
+      .accordion-item-common;
 
       .employer{
-        color:@grayMidLight;
+        color:@white;
       }
 
     }
@@ -230,6 +234,8 @@
 
         .collapse(1s);
 
+        border-bottom:solid 1px @grayMid;
+
       }
 
     }
@@ -237,7 +243,7 @@
     .accordion-item-fun .accordion-title,
     .navigation-accordion .nav-selected .accordion-options-fun{
       background:@grayMid;
-      color:#fff;
+      color:@white;
     }
 
 // accordion content
@@ -245,8 +251,7 @@
     .accordion-item-show{
 
         .accordion-content{
-            //display:block;
-                  padding:@gutter 0;
+            padding:@gutter 0;
             .collapse(1s);
         }
 
