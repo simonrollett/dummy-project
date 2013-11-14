@@ -29,6 +29,13 @@
       }
   }
 
+  .nav-title,
+  .date{
+    .col-3;
+    .text-shadow(@text-disabled);
+  }
+
+
 //accordion timeline
 
   .accordion{
@@ -48,6 +55,7 @@
 
     .expand(1s);
 
+
     .date{
       display:block;
       left:0;
@@ -55,7 +63,7 @@
       position:absolute;
       background:@date_color_bg;
       color:@date_color;
-      .col-3;
+
 
       .inner{
         padding:@gutter_half @gutter;
@@ -90,6 +98,7 @@
 
   .nav-title{
     background:@date_color_bg;
+
 
     .nav-link{
         color:@date_color;
@@ -257,11 +266,12 @@
 @media only screen and(min-width:@desktop){
 
 
+  .nav-title,
+  .date{
+    .col-2;
+  }
 
     .accordion-item{
-        .date{
-            .col-2;
-          }
 
         .accordion-title,
         .accordion-content{
