@@ -358,8 +358,6 @@ div {
 }
 .accordion-item {
   float: left;
-  max-height: 0px;
-  overflow-y: hidden;
   padding: 0;
   width: 100%;
   position: relative;
@@ -367,6 +365,8 @@ div {
   -webkit-transition: max-height 1s;
   -moz-transition: max-height 1s;
   -o-transition: max-height 1s;
+  max-height: 0px;
+  overflow-y: hidden;
 }
 .accordion-item .date {
   display: block;
@@ -386,20 +386,24 @@ div {
 .accordion-item .date-start {
   bottom: 0;
 }
+.accordion-item .accordion-title {
+  display: block;
+}
 .accordion-item .accordion-title,
 .accordion-item .accordion-content {
-  display: block;
   float: right !important;
   float: left;
   width: 75%;
 }
 .accordion-item .accordion-content {
   clear: both;
-  padding: 1em;
+  padding: 0;
   transition: max-height 1s;
   -webkit-transition: max-height 1s;
   -moz-transition: max-height 1s;
   -o-transition: max-height 1s;
+  max-height: 0px;
+  overflow-y: hidden;
 }
 .nav-title {
   background: #eeeeee;
@@ -507,6 +511,17 @@ div {
 .navigation-accordion .nav-selected .accordion-options-fun {
   background: #cccccc;
   color: #fff;
+}
+.accordion-item-show .accordion-content {
+  padding: 1em 0;
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  max-height: 1000px;
+  margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
 }
 @media only screen and (min-width: 40em) {
   .accordion-options {

@@ -5,6 +5,8 @@
   -webkit-transition:max-height @seconds;
   -moz-transition:max-height @seconds;
   -o-transition:max-height @seconds;
+  max-height:0px;
+  overflow-y:hidden;
 }
 
 .collapse(@seconds){
@@ -46,14 +48,12 @@
 
   .accordion-item{
     float:left;
-    max-height:0px;
-    overflow-y:hidden;
+
     padding:0;
     width:100%;
     position:relative;
 
     .expand(1s);
-
 
     .date{
       display:block;
@@ -62,7 +62,6 @@
       position:absolute;
       background:@date_color_bg;
       color:@date_color;
-
 
       .inner{
         padding:@gutter_half @gutter;
@@ -79,16 +78,21 @@
       bottom:0;
     }
 
+    .accordion-title{
+        display:block;
+    }
+
     .accordion-title,
     .accordion-content{
-      display:block;
+
       float:right !important;
       .col-9;
     }
 
     .accordion-content{
       clear:both;
-      padding:@gutter;
+      //padding:@gutter;
+      padding:0;
 
       .expand(1s);
     }
@@ -234,6 +238,18 @@
     .navigation-accordion .nav-selected .accordion-options-fun{
       background:@grayMid;
       color:#fff;
+    }
+
+// accordion content
+
+    .accordion-item-show{
+
+        .accordion-content{
+            //display:block;
+                  padding:@gutter 0;
+            .collapse(1s);
+        }
+
     }
 
 @media only screen and(min-width:@tablet_small){
