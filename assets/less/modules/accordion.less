@@ -1,6 +1,5 @@
-// accordion options
+// effects
 
-// expand effect
 .expand(@seconds){
   transition:max-height @seconds;
   -webkit-transition:max-height @seconds;
@@ -19,7 +18,7 @@
   border-bottom:solid 1px @grayMid;
 }
 
-// end expand effect
+// end effect
 
   .accordion-options{
       clear:both;
@@ -147,27 +146,6 @@
 
 }
 
-//fun ===============================
-
-.accordion-items-fun{
-
-    .accordion-item-fun{
-      display:block;
-      max-height:0;
-      overflow:hidden;
-      border-bottom:0;
-
-      .accordion-title{
-          background:#ccc;
-      }
-
-      .employer{
-        color:@grayMidLight;
-      }
-    }
-
-}
-
 //achievements ===============================
 
     .accordion-item-achievement{
@@ -198,35 +176,65 @@
       color:#fff;
     }
 
+//work ===============================
+
+    .accordion-item-work{
+      display:block;
+      max-height:0;
+      overflow:hidden;
+      border-bottom:0;
+
+      .employer{
+        color:@grayMidDark;
+      }
+
+    }
+
+    .accordion-items-work{
+
+      .accordion-item-work{
+
+        .collapse(1s);
+
+      }
+
+    }
+
+    .accordion-item-work .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-work{
+      background:@grayLight;
+      color:@grayMidDark;
+    }
+
 //fun ===============================
 
-.accordion-item-fun{
-  display:block;
-  max-height:0;
-  overflow:hidden;
-  border-bottom:0;
+    .accordion-item-fun{
+      display:block;
+      max-height:0;
+      overflow:hidden;
+      border-bottom:0;
 
-  .employer{
-    color:@grayMidLight;
-  }
+      .employer{
+        color:@grayMidLight;
+      }
 
-}
+    }
 
-.accordion-items-fun{
+    .accordion-items-fun{
 
-  .accordion-item-fun{
+      .accordion-item-fun{
 
-    .collapse(1s);
+        .collapse(1s);
 
-  }
+      }
 
-}
+    }
 
-.accordion-item-fun .accordion-title,
-.navigation-accordion .nav-selected .accordion-options-fun{
-  background:@grayMid;
-  color:#fff;
-}
+    .accordion-item-fun .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-fun{
+      background:@grayMid;
+      color:#fff;
+    }
 
 @media only screen and(min-width:@tablet_small){
 
