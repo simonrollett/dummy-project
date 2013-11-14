@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-achievement">
     <div class="accordion-title">
-        <h2 class="position">MadJester: NEC Bike Show</h2>
-        <h3 class="employer">Birmingham</h3>
+        <h2 class="position">PolicyExpert website</h2>
+        <h3 class="employer">QMetric Group Ltd.</h3>
 
     </div>
     <div class="date date-end">

@@ -14,6 +14,8 @@
 
                 <ul class="accordion accordion-timeline accordion-items-achievements">
 
+                    <?php include "includes/accordion-achievement-pe.php";?>
+
                     <?php include "includes/accordion-work-qmetric.php";?>
 
                     <?php include "includes/accordion-work-dba.php";?>
@@ -26,8 +28,11 @@
 
                     <?php include "includes/accordion-fun-donington.php";?>
 
-                    <?php include "includes/accordion-achievement-mj.php";?>
+                    <?php include "includes/accordion-achievement-mj-nec.php";?>
 
+                    <?php include "includes/accordion-achievement-mj-brand.php";?>
+
+                    <?php include "includes/accordion-achievement-triangle.php";?>
                 </ul>
 
 
