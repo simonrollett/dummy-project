@@ -822,10 +822,15 @@ h6 {
   .navigation-accordion-wrapper {
     margin: 0.5em 0;
   }
+  .navigation-accordion .nav-link-wrapper {
+    width: 25%;
+  }
+  .navigation-accordion .nav-title {
+    width: 25%;
+  }
 }
 @media only screen and (min-width: 75em) {
-  .navigation-accordion .nav-link-wrapper {
+  .navigation-accordion .nav-title {
     width: 16.66666666%;
-    float: left;
   }
 }
