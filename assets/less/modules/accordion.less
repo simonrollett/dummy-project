@@ -26,7 +26,12 @@
     border-bottom:0;
 }
 
-// end effect
+// base colours
+
+
+
+
+// end base colours
 
   .accordion-options{
       clear:both;
@@ -86,6 +91,10 @@
 
     .accordion-title{
         display:block;
+
+      &:hover{
+        .transparent_class(70);
+      }
     }
 
     .accordion-title,
@@ -97,7 +106,7 @@
 
     .accordion-content{
       clear:both;
-      //padding:0;
+      .inner-X;
 
       .expand(1s);
     }
@@ -106,7 +115,6 @@
 
   .nav-title{
     background:@date_color_bg;
-
 
     .nav-link{
         color:@date_color;
@@ -122,18 +130,22 @@
   font-size:@gutter;
   margin:0;
 
-  .position,
-  .employer,
+  .title-main,
+  .title-sub,
   .description{
     display:block;
   }
 
-  .position{
+  .title-main{
     margin:0;
     padding:0;
+    //background
+    background-repeat:no-repeat;
+    background-image: url('../images/icons/arrows.gif');
+    background-position:98% @gutter_half;
   }
 
-  .employer{
+  .title-sub{
     font-size:@gutter_small;
     font-weight:normal;
     margin:0;
@@ -161,8 +173,8 @@
 
         .accordion-item-common;
 
-        .employer{
-          color:@grayMidLight;
+        .title-sub{
+          color:@achievement_title_sub;
         }
 
     }
@@ -181,8 +193,8 @@
 
     .accordion-item-achievement .accordion-title,
     .navigation-accordion .nav-selected .accordion-options-achievements{
-      background:#000;
-      color:#fff;
+      background:@work_title_bg;
+      color:@work_title;
     }
 
 //work ===============================
@@ -191,8 +203,8 @@
 
       .accordion-item-common;
 
-      .employer{
-        color:@grayMidDark;
+      .title-sub{
+        color:@work_title_sub;
       }
 
     }
@@ -221,7 +233,7 @@
 
       .accordion-item-common;
 
-      .employer{
+      .title-sub{
         color:@white;
       }
 
@@ -269,12 +281,12 @@
 
   .accordion-item{
 
-    .position{
+    .title-main{
         font-size:@gutter_x2;
     }
 
 
-    .employer{
+    .title-sub{
       font-size:@gutter;
     }
     .date{

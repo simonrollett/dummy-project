@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-work">
     <div class="accordion-title">
-        <h2 class="position">Director</h2>
-        <h3 class="employer">optifusion</h3>
+        <h2 class="title-main">Director</h2>
+        <h3 class="title-sub">optifusion</h3>
     </div>
     <div class="date date-end">
         <div class="inner">MAY 2004</div>
@@ -17,9 +17,7 @@
             <div class="accordion-footer-appendix">
                 <?php include "accordion-footer-appendix.php";?>
             </div>
-            <ul class="accordion-footer-references">
-                <li>Ref</li>
-            </ul>
+            <?php include "accordion-footer-refs.php";?>
         </div>
     </div>
 </li>

@@ -1,14 +1,13 @@
-<li class="accordion-item accordion-item-achievement">
+<li class="accordion-item accordion-item-fun">
     <div class="accordion-title">
-        <h2 class="title-main">Retail Exhibition</h2>
-        <h3 class="title-sub">MadJester Ltd</h3>
-
+        <h2 class="title-main">Kickboxing</h2>
+        <h3 class="title-sub">Bournemouth</h3>
     </div>
     <div class="date date-end">
-        <div class="inner">NOV-2007</div>
+        <div class="inner">SEP-2005</div>
     </div>
     <div class="date date-start">
-        <div class="inner">NOV-2007</div>
+        <div class="inner">SEP-2005</div>
     </div>
     <div class="accordion-content time-work">
         <div class="description">
@@ -21,9 +20,11 @@
         </div>
         <div class="accordion-footer">
             <div class="accordion-footer-appendix">
-                <?php include "accordion-footer-appendix.php";?>
+                <?php include "includes/accordion-footer-appendix.php";?>
             </div>
-            <?php include "accordion-footer-refs.php";?>
+            <ul class="accordion-footer-references">
+                <li>Ref</li>
+            </ul>
         </div>
     </div>
 </li>

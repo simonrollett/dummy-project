@@ -1,0 +1,23 @@
+.btn{
+  display:inline-block;
+  text-align:center;
+  cursor:pointer;
+  //.rounded(@gutter_qtr);
+  .box-shadow(@shadowDefault);
+  cursor:pointer;
+  text-decoration: none;
+  line-height:@gutter*2;
+  position:relative;
+  top:-1px;
+  padding:@gutter_half @gutter;
+
+  &:active{
+    box-shadow:@shadowInset;
+    top:0;
+  }
+}
+
+.btn-contact{
+  .grad-Y(@black,@grayMidDark);
+  color:@white;
+}

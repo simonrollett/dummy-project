@@ -1,23 +1,18 @@
 <li class="accordion-item accordion-item-achievement">
     <div class="accordion-title">
-        <h2 class="title-main">Retail Exhibition</h2>
-        <h3 class="title-sub">MadJester Ltd</h3>
+        <h2 class="title-main">Re-branding</h2>
+        <h3 class="title-sub">Achiever Business Solutions</h3>
 
     </div>
     <div class="date date-end">
-        <div class="inner">NOV-2007</div>
+        <div class="inner">AUG 2002</div>
     </div>
     <div class="date date-start">
-        <div class="inner">NOV-2007</div>
+        <div class="inner">MAR 2001</div>
     </div>
     <div class="accordion-content time-work">
         <div class="description">
-            <p>
-                Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-                Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-                condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-                Nam mi. Proin viverra leo ut odio.
-            </p>
+            <?php include "includes/work-abs.php";?>
         </div>
         <div class="accordion-footer">
             <div class="accordion-footer-appendix">

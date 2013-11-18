@@ -3,14 +3,9 @@
         <section class="body">
             <div class="content-main container">
 
-                <div class="navigation-accordion-wrapper">
-                    <ul class="nav-row navigation navigation-accordion">
-                        <li class="nav-link-wrapper align-center nav-title"><a class="nav-link" href="#">DATE:</a></li>
-                        <li class="nav-link-wrapper nav-selected"><a href="#" class="nav-link accordion-options-achievements">Achievements</a></li>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options-work">Work</a></li>
-                        <li class="nav-link-wrapper"><a href="#" class="nav-link accordion-options accordion-options-fun">Fun</a></li>
-                    </ul>
-                </div>
+                <?php include "includes/accordion-navigation.php";?>
+
+
 
                 <ul class="accordion accordion-timeline accordion-items-achievements">
 
@@ -24,6 +19,8 @@
 
                     <?php include "includes/accordion-work-triangle.php";?>
 
+                    <?php include "includes/accordion-fun-kb-2.php";?>
+
                     <?php include "includes/accordion-fun-kb-1.php";?>
 
                     <?php include "includes/accordion-fun-donington.php";?>
@@ -32,7 +29,10 @@
 
                     <?php include "includes/accordion-achievement-mj-brand.php";?>
 
+                    <?php include "includes/accordion-achievement-abs.php";?>
+
                     <?php include "includes/accordion-achievement-triangle.php";?>
+
                 </ul>
 
 
