@@ -20,6 +20,7 @@ $(document).ready(function($) {
     $(".accordion-title").click(function (e) { // binding onclick
         e.preventDefault();
         $(this).closest(".accordion-item").toggleClass("accordion-item-show");
+        $(this).toggleClass("accordion-open");
     });
 
     // achievements

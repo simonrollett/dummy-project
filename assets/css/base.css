@@ -530,6 +530,9 @@ div {
   background: #cccccc;
   color: #ffffff;
 }
+.accordion-item-show .accordion-title .title-main {
+  background-position: 98% -3.6em;
+}
 .accordion-item-show .accordion-content {
   transition: max-height 1s;
   -webkit-transition: max-height 1s;
@@ -555,6 +558,9 @@ div {
   }
   .accordion-item .date {
     font-size: 1em;
+  }
+  .accordion-item-show .accordion-title .title-main {
+    background-position: 98% -2.7em;
   }
 }
 @media only screen and (min-width: 50em) {

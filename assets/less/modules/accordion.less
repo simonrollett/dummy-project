@@ -26,11 +26,6 @@
     border-bottom:0;
 }
 
-// base colours
-
-
-
-
 // end base colours
 
   .accordion-options{
@@ -154,7 +149,6 @@
   }
 }
 
-
 .description{
   line-height:@gutter_large;
 }
@@ -261,6 +255,15 @@
 
     .accordion-item-show{
 
+        .accordion-title{
+
+            .title-main{
+
+                background-position:98% -(@gutter)*3.6;
+
+            }
+        }
+
         .accordion-content{
 
             .collapse(1s);
@@ -279,6 +282,7 @@
       }
   }
 
+
   .accordion-item{
 
     .title-main{
@@ -292,6 +296,19 @@
     .date{
       font-size:@gutter;
     }
+  }
+
+  .accordion-item-show{
+
+    .accordion-title{
+
+        .title-main{
+
+            background-position:98% -(@gutter)*2.7;
+
+        }
+    }
+
   }
 
 }
