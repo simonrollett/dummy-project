@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-code">
     <div class="accordion-title">
         <h2 class="title-main">HTML, HTML5</h2>
-        <h3 class="title-sub">Front-end web code</h3>
+        <?php rating_bar($rating_html);?>
 
     </div>
     <div class="date date-end">

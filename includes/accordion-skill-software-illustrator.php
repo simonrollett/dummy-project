@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-design">
     <div class="accordion-title">
         <h2 class="title-main">Illustrator</h2>
-        <h3 class="title-sub">Adobe</h3>
+        <?php rating_bar($rating_indesign);?>
 
     </div>
     <div class="date date-end">
