@@ -530,6 +530,54 @@ div {
   background: #cccccc;
   color: #ffffff;
 }
+.accordion-item-code {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 0;
+}
+.accordion-item-code .title-sub {
+  color: #ffffff;
+}
+.accordion-items-code .accordion-item-code {
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  max-height: 1000px;
+  margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
+}
+.accordion-item-code .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-code {
+  background: #cccccc;
+  color: #ffffff;
+}
+.accordion-item-design {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 0;
+}
+.accordion-item-design .title-sub {
+  color: #333333;
+}
+.accordion-items-design .accordion-item-design {
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  max-height: 1000px;
+  margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
+}
+.accordion-item-design .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-design {
+  background: #eeeeee;
+  color: #666666;
+}
 .accordion-item-show .accordion-title .title-main {
   background-position: 98% -3.6em;
 }

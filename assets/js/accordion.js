@@ -24,10 +24,10 @@ $(document).ready(function($) {
     });
 
     // achievements
-    $(".accordion-options-achievements").click(function (e) { // binding onclick
-        e.preventDefault();
-        toggleAccordionView("accordion-items-achievements",this);
-    });
+        $(".accordion-options-achievements").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-achievements",this);
+        });
 
     // work
         $(".accordion-options-work").click(function (e) { // binding onclick
@@ -36,10 +36,22 @@ $(document).ready(function($) {
         });
 
     // fun
-    $(".accordion-options-fun").click(function (e) { // binding onclick
-        e.preventDefault();
-        toggleAccordionView("accordion-items-fun",this);
-    });
+        $(".accordion-options-fun").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-fun",this);
+        });
+
+    // code
+        $(".accordion-options-code").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-code",this);
+        });
+
+    // code
+        $(".accordion-options-design").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-design",this);
+        });
 
     // nav
         $(".nav-menu .nav-link").click(function (e) { // binding onclick

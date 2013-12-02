@@ -134,7 +134,6 @@
   .title-main{
     margin:0;
     padding:0 @gutter*1.5 0 0;
-    //background
     background-repeat:no-repeat;
     background-image: url('../images/icons/arrows.gif');
     background-position:98% @gutter_half;
@@ -228,7 +227,7 @@
       .accordion-item-common;
 
       .title-sub{
-        color:@white;
+        color:@fun_title_sub;
       }
 
     }
@@ -247,8 +246,68 @@
 
     .accordion-item-fun .accordion-title,
     .navigation-accordion .nav-selected .accordion-options-fun{
-      background:@grayMid;
-      color:@white;
+      background:@fun_title_bg;
+      color:@fun_title;
+    }
+
+//skills ===============================
+
+    .accordion-item-code{
+
+        .accordion-item-common;
+
+        .title-sub{
+          color:@code_title_sub;
+        }
+
+    }
+
+    .accordion-items-code{
+
+        .accordion-item-code{
+
+            .collapse(1s);
+
+            border-bottom:solid 1px @grayMid;
+
+        }
+
+    }
+
+    .accordion-item-code .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-code{
+      background:@code_title_bg;
+      color:@code_title;
+    }
+
+//design ===============================
+
+    .accordion-item-design{
+
+      .accordion-item-common;
+
+      .title-sub{
+        color:@design_title_sub;
+      }
+
+    }
+
+    .accordion-items-design{
+
+      .accordion-item-design{
+
+        .collapse(1s);
+
+        border-bottom:solid 1px @grayMid;
+
+      }
+
+    }
+
+    .accordion-item-design .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-design{
+      background:@grayLight;
+      color:@grayMidDark;
     }
 
 // accordion content
