@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><?php include "variables.php"; ?>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,7 @@
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
+
     <![endif]-->
 
 </head>

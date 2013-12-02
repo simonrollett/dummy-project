@@ -3,6 +3,8 @@
         <section class="body">
             <div class="content-main container">
 
+                <h1 class="page-title">Welcome</h1>
+
                 <?php include "includes/accordion-navigation.php";?>
 
 

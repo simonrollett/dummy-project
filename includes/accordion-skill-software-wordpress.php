@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-code">
     <div class="accordion-title">
-        <h2 class="title-main">JQuery</h2>
-        <?php rating_bar($rating_jquery);?>
+        <h2 class="title-main">WordPress</h2>
+        <?php rating_bar($rating_wordpress);?>
 
     </div>
     <div class="date date-end">

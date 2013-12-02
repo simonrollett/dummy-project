@@ -537,7 +537,7 @@ div {
   border-bottom: 0;
 }
 .accordion-item-code .title-sub {
-  color: #ffffff;
+  color: #666666;
 }
 .accordion-items-code .accordion-item-code {
   transition: max-height 1s;
@@ -551,8 +551,8 @@ div {
 }
 .accordion-item-code .accordion-title,
 .navigation-accordion .nav-selected .accordion-options-code {
-  background: #cccccc;
-  color: #ffffff;
+  background: #ffffff;
+  color: #333333;
 }
 .accordion-item-design {
   display: block;
@@ -561,7 +561,7 @@ div {
   border-bottom: 0;
 }
 .accordion-item-design .title-sub {
-  color: #333333;
+  color: #666666;
 }
 .accordion-items-design .accordion-item-design {
   transition: max-height 1s;
@@ -575,8 +575,8 @@ div {
 }
 .accordion-item-design .accordion-title,
 .navigation-accordion .nav-selected .accordion-options-design {
-  background: #eeeeee;
-  color: #666666;
+  background: #ffffff;
+  color: #333333;
 }
 .accordion-item-show .accordion-title .title-main {
   background-position: 98% -3.6em;
@@ -678,6 +678,10 @@ h3,
 .date,
 .footer-text {
   font-family: "Oswald", sans-serif;
+}
+.page-title {
+  font-size: 3em;
+  margin-top: 0.5em;
 }
 .header-wrapper {
   background: #ffffff;
@@ -887,4 +891,46 @@ h6 {
   .navigation-accordion .nav-title {
     width: 16.66666666%;
   }
+}
+.rating-1 {
+  width: 10%;
+}
+.rating-2 {
+  width: 20%;
+}
+.rating-3 {
+  width: 30%;
+}
+.rating-4 {
+  width: 40%;
+}
+.rating-5 {
+  width: 50%;
+}
+.rating-6 {
+  width: 60%;
+}
+.rating-7 {
+  width: 70%;
+}
+.rating-8 {
+  width: 80%;
+}
+.rating-9 {
+  width: 90%;
+}
+.rating-10 {
+  width: 100%;
+}
+.rating {
+  background: #eeeeee;
+  border: solid 1px #ffffff;
+  float: left;
+  width: 100%;
+}
+.rating-bar {
+  background: #666666;
+  color: #ffffff;
+  padding: 0.5em;
+  font-size: 1em;
 }

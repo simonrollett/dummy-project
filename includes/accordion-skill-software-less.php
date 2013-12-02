@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-code">
     <div class="accordion-title">
         <h2 class="title-main">Less</h2>
-        <h3 class="title-sub">CSS Preprocessor</h3>
+        <?php rating_bar($rating_less);?>
 
     </div>
     <div class="date date-end">

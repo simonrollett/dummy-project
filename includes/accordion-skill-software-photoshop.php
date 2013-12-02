@@ -1,7 +1,7 @@
 <li class="accordion-item accordion-item-design">
     <div class="accordion-title">
         <h2 class="title-main">Photoshop</h2>
-        <h3 class="title-sub">Adobe</h3>
+        <?php rating_bar($rating_photoshop);?>
 
     </div>
     <div class="date date-end">
@@ -18,6 +18,16 @@
                 condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
                 Nam mi. Proin viverra leo ut odio.
             </p>
+            <ul class="list-neutral">
+                <li>Website design</li>
+                <li>Landing pages</li>
+                <li>Email newsletters</li>
+                <li>Photo re-touching</li>
+                <li>Raster illustration</li>
+                <li>Vector illustration</li>
+                <li>Logos</li>
+                <li>Brochureware</li>
+            </ul>
         </div>
         <div class="accordion-footer">
             <div class="accordion-footer-appendix">
