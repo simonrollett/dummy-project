@@ -20,8 +20,8 @@ h3,
 }
 
 .page-title{
-  font-size:@gutter*3;
-  margin-top:@gutter_half;
+  font-size:@gutter*2;
+  margin:@gutter_qtr;
 }
 
 .header-wrapper{
@@ -35,4 +35,14 @@ h3,
 
 .accordion-item{
  background:@white;
+}
+
+@media only screen and(min-width:@tablet){
+
+    .page-title{
+      font-size:@gutter*3;
+      margin:@gutter_half 0;
+      color:@grayDark;
+    }
+
 }
