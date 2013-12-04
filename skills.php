@@ -19,6 +19,7 @@
                     <?php include "includes/accordion-skill-software-github.php";?>
                     <?php include "includes/accordion-skill-software-indesign.php";?>
                     <?php include "includes/accordion-skill-software-illustrator.php";?>
+                    <?php include "includes/accordion-skill-manage-brand.php";?>
 
                 </ul>
 
