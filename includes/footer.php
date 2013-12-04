@@ -2,9 +2,11 @@
 </div>
 
 <footer class="footer-wrapper">
-    <div class="footer inner">
-        <div class="float-anchor footer-text align-center">
-            &copy; S. J. Rollett. All rights reserved.
+    <div class="site-width">
+        <div class="float-anchor">
+            <div class="inner-Y align-right">
+                &copy; S. J. Rollett. All rights reserved.
+            </div>
         </div>
     </div>
 </footer>
