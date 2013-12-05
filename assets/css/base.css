@@ -323,6 +323,9 @@ div {
   .hidden-ts {
     display: none;
   }
+  .FR-ts {
+    float: right !important;
+  }
 }
 @media only screen and (min-width: 50em) {
   .site-width {
@@ -375,12 +378,14 @@ div {
   overflow-y: hidden;
 }
 .accordion-item .date {
+  float: left;
+  width: 25%;
   display: block;
   left: 0;
   font-size: 0.75em;
   position: absolute;
-  background: #333333;
-  color: #ffffff;
+  background: #dddddd;
+  color: #666666;
 }
 .accordion-item .date .inner {
   padding: 0.2em 1em;
@@ -394,6 +399,8 @@ div {
 }
 .accordion-item .accordion-title {
   display: block;
+  float: left;
+  width: 75%;
 }
 .accordion-item .accordion-title:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity_percent)";
@@ -405,8 +412,6 @@ div {
 .accordion-item .accordion-title,
 .accordion-item .accordion-content {
   float: right !important;
-  float: left;
-  width: 75%;
 }
 .accordion-item .accordion-content {
   clear: both;
@@ -420,10 +425,10 @@ div {
   overflow-y: hidden;
 }
 .nav-title {
-  background: #333333;
+  background: #dddddd;
 }
 .nav-title .nav-link {
-  color: #ffffff;
+  color: #666666;
   cursor: default;
 }
 .accordion-title {
@@ -577,10 +582,41 @@ div {
   background: #ffffff;
   color: #333333;
 }
+.accordion-item-manage {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 0;
+}
+.accordion-item-manage .title-sub {
+  color: #666666;
+}
+.accordion-items-manage .accordion-item-manage {
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  max-height: 1000px;
+  margin-top: 0;
+  margin: 0 0 0.5em;
+  border-bottom: solid 1px #cccccc;
+}
+.accordion-item-achievement .accordion-title,
+.navigation-accordion .nav-selected .accordion-options-manage {
+  background: #ffffff;
+  color: #333333;
+}
+.accordion-item-show .accordion-title {
+  margin-top: 1.5em;
+  float: left;
+  width: 100%;
+}
 .accordion-item-show .accordion-title .title-main {
   background-position: 98% -3.6em;
 }
 .accordion-item-show .accordion-content {
+  float: left;
+  width: 100%;
   transition: max-height 1s;
   -webkit-transition: max-height 1s;
   -moz-transition: max-height 1s;
@@ -606,6 +642,14 @@ div {
   .accordion-item .date {
     font-size: 1em;
   }
+  .accordion-item .accordion-title,
+  .accordion-item .accordion-content {
+    float: left;
+    width: 75%;
+  }
+  .accordion-item-show .accordion-title {
+    margin-top: 0;
+  }
   .accordion-item-show .accordion-title .title-main {
     background-position: 98% -2.7em;
   }
@@ -625,6 +669,10 @@ div {
   .accordion-item .accordion-content {
     float: left;
     width: 83.3333333%;
+  }
+  .accordion-item .date {
+    float: left;
+    width: 16.66666666%;
   }
 }
 @media only screen and (min-width: 100em) {
@@ -685,7 +733,7 @@ h3,
 .header-wrapper {
   background: #ffffff;
 }
-.nav-wrapper {
+.header-wrapper {
   background: #ffffff;
   border-bottom: solid 1px #cccccc;
 }
@@ -748,6 +796,7 @@ h3,
   text-transform: uppercase;
   font-size: 0.75em;
   color: #cccccc;
+  text-align: right;
 }
 .date-end:after {
   bottom: 0;
@@ -772,7 +821,7 @@ h3,
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #333333;
+  border-bottom-color: #dddddd;
 }
 .date-start:before {
   border-width: 0.5em;
@@ -838,7 +887,8 @@ h6 {
 }
 .navigation-site .nav-link {
   color: #333333;
-  font-size: 1em;
+  font-size: 1.5em;
+  padding: 1em 0.5em;
 }
 .navigation-site .nav-link:hover {
   background: #eeeeee;
@@ -865,6 +915,9 @@ h6 {
 .navigation-accordion .nav-selected {
   background: #cccccc;
 }
+.nav-menu .nav-link {
+  padding: 1em 0.5em;
+}
 @media only screen and (min-width: 40em) {
   .navigation-site {
     display: block;
@@ -877,6 +930,13 @@ h6 {
     background-position: center -6px;
     width: 11px;
     height: 9px;
+  }
+  .navigation-site .nav-link {
+    border-bottom: solid 0.5em #ffffff;
+  }
+  .navigation-site .nav-link:hover {
+    background: #ffffff;
+    border-bottom: solid 0.5em #dddddd;
   }
   .nav-link {
     font-size: 1em;

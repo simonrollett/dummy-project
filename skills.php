@@ -1,9 +1,12 @@
-    <?php include "includes/header.php";?>
+    <?php
+    include "includes/header.php";
+    $page_name = "Skills";
+    ?>
 
         <section class="body">
             <div class="content-main container">
 
-                <h1 class="page-title">Skills</h1>
+                <h1 class="page-title"><?php echo $page_name;?></h1>
 
                 <?php include "includes/accordion-navigation-skills.php";?>
 
@@ -19,6 +22,7 @@
                     <?php include "includes/accordion-skill-software-github.php";?>
                     <?php include "includes/accordion-skill-software-indesign.php";?>
                     <?php include "includes/accordion-skill-software-illustrator.php";?>
+                    <?php include "includes/accordion-skill-manage-brand.php";?>
 
                 </ul>
 

@@ -60,6 +60,7 @@
     .expand(1s);
 
     .date{
+      .col-3;
       display:block;
       left:0;
       font-size:@gutter_small;
@@ -84,6 +85,7 @@
 
     .accordion-title{
         display:block;
+        .col-9;
 
       &:hover{
         .transparent_class(70);
@@ -94,7 +96,6 @@
     .accordion-content{
 
       float:right !important;
-      .col-9;
     }
 
     .accordion-content{
@@ -308,11 +309,44 @@
       color:@design_title;
     }
 
+//manage ===============================
+
+    .accordion-item-manage{
+
+        .accordion-item-common;
+
+        .title-sub{
+          color:@manage_title_sub;
+        }
+
+    }
+
+    .accordion-items-manage{
+
+        .accordion-item-manage{
+
+            .collapse(1s);
+
+            border-bottom:solid 1px @grayMid;
+
+        }
+
+    }
+
+    .accordion-item-achievement .accordion-title,
+    .navigation-accordion .nav-selected .accordion-options-manage{
+      background:@manage_title_bg;
+      color:@manage_title;
+    }
+
 // accordion content
 
     .accordion-item-show{
 
         .accordion-title{
+
+            margin-top:@gutter*1.5;
+            .col-12;
 
             .title-main{
 
@@ -322,6 +356,8 @@
         }
 
         .accordion-content{
+
+            .col-12;
 
             .collapse(1s);
         }
@@ -350,14 +386,23 @@
     .title-sub{
       font-size:@gutter;
     }
+
     .date{
       font-size:@gutter;
+
     }
+    .accordion-title,
+        .accordion-content{
+            .col-9;
+        }
+
   }
 
   .accordion-item-show{
 
     .accordion-title{
+
+        margin-top:0;
 
         .title-main{
 
@@ -367,6 +412,7 @@
     }
 
   }
+
 
 }
 
@@ -390,6 +436,10 @@
         .accordion-title,
         .accordion-content{
             .col-10;
+          }
+
+          .date{
+            .col-2;
           }
       }
 

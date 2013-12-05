@@ -53,6 +53,12 @@ $(document).ready(function($) {
             toggleAccordionView("accordion-items-design",this);
         });
 
+    // code
+        $(".accordion-options-manage").click(function (e) { // binding onclick
+            e.preventDefault();
+            toggleAccordionView("accordion-items-manage",this);
+        });
+
     // nav
         $(".nav-menu .nav-link").click(function (e) { // binding onclick
             e.preventDefault();
