@@ -23,9 +23,11 @@
 .navigation-site{
   display:none;
 
-  .nav-link{
+  .nav-link,
+  {
     color:@clickable_text;
-    font-size:@gutter;
+    font-size: @gutter*1.5;
+    padding:@gutter @gutter_half;
 
     &:hover{
       background:@grayLight;
@@ -54,17 +56,25 @@
     margin:@gutter_half @gutter_half 0;
 }
 
-    .navigation-accordion{
-      background:@white;
-      margin-top:@gutter;
-      border-bottom:solid 1px @grayMid;
-      width:100%;
+.navigation-accordion{
+  background:@white;
+  margin-top:@gutter;
+  border-bottom:solid 1px @grayMid;
+  width:100%;
 
-      .nav-selected{
-        background:@grayMid;
-      }
+  .nav-selected{
+    background:@grayMid;
+  }
 
+}
+
+.nav-menu{
+
+    .nav-link{
+        padding:@gutter @gutter_half;
     }
+
+}
 
 @media only screen and(min-width:@tablet_small){
 
@@ -78,6 +88,8 @@
         width:11px;
         height:9px;
     }
+
+
 
   }
 

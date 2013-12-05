@@ -871,7 +871,8 @@ h6 {
 }
 .navigation-site .nav-link {
   color: #333333;
-  font-size: 1em;
+  font-size: 1.5em;
+  padding: 1em 0.5em;
 }
 .navigation-site .nav-link:hover {
   background: #eeeeee;
@@ -897,6 +898,9 @@ h6 {
 }
 .navigation-accordion .nav-selected {
   background: #cccccc;
+}
+.nav-menu .nav-link {
+  padding: 1em 0.5em;
 }
 @media only screen and (min-width: 40em) {
   .navigation-site {
