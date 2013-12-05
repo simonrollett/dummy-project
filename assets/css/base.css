@@ -915,6 +915,13 @@ h6 {
     width: 11px;
     height: 9px;
   }
+  .navigation-site .nav-link {
+    border-bottom: solid 0.5em #ffffff;
+  }
+  .navigation-site .nav-link:hover {
+    background: #ffffff;
+    border-bottom: solid 0.5em #dddddd;
+  }
   .nav-link {
     font-size: 1em;
   }

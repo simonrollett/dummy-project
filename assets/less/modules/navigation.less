@@ -29,6 +29,7 @@
     font-size: @gutter*1.5;
     padding:@gutter @gutter_half;
 
+
     &:hover{
       background:@grayLight;
     }
@@ -89,7 +90,14 @@
         height:9px;
     }
 
+    .nav-link{
+        border-bottom:solid @gutter_half @white;
 
+        &:hover{
+            background:@white;
+            border-bottom:solid @gutter_half @grayMidLight;
+        }
+    }
 
   }
 
