@@ -398,6 +398,8 @@ div {
 }
 .accordion-item .accordion-title {
   display: block;
+  float: left;
+  width: 75%;
 }
 .accordion-item .accordion-title:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity_percent)";
@@ -409,8 +411,6 @@ div {
 .accordion-item .accordion-title,
 .accordion-item .accordion-content {
   float: right !important;
-  float: left;
-  width: 75%;
 }
 .accordion-item .accordion-content {
   clear: both;
@@ -605,10 +605,17 @@ div {
   background: #ffffff;
   color: #333333;
 }
+.accordion-item-show .accordion-title {
+  margin-top: 1.5em;
+  float: left;
+  width: 100%;
+}
 .accordion-item-show .accordion-title .title-main {
   background-position: 98% -3.6em;
 }
 .accordion-item-show .accordion-content {
+  float: left;
+  width: 100%;
   transition: max-height 1s;
   -webkit-transition: max-height 1s;
   -moz-transition: max-height 1s;
@@ -633,6 +640,14 @@ div {
   }
   .accordion-item .date {
     font-size: 1em;
+  }
+  .accordion-item .accordion-title,
+  .accordion-item .accordion-content {
+    float: left;
+    width: 75%;
+  }
+  .accordion-item-show .accordion-title {
+    margin-top: 0;
   }
   .accordion-item-show .accordion-title .title-main {
     background-position: 98% -2.7em;
