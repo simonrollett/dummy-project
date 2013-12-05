@@ -1,5 +1,11 @@
 @import "variables";
 
+.logo-wrapper{
+  .inner{
+    padding:@gutter_half @gutter;
+  }
+}
+
 .navigation{
 
   margin:0;
@@ -26,7 +32,7 @@
   .nav-link,
   {
     color:@clickable_text;
-    font-size: @gutter*1.5;
+    font-size: @gutter;
     padding:@gutter @gutter_half;
 
 
@@ -92,6 +98,7 @@
 
     .nav-link{
         border-bottom:solid @gutter_half @white;
+      padding:@gutter;
 
         &:hover{
             background:@white;
@@ -108,7 +115,8 @@
   }
 
   .nav-link{
-      font-size:@gutter;
+    font-size: @gutter*1.5;
+    padding:@gutter @gutter_half;
     }
 
 }

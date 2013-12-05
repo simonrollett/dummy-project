@@ -867,6 +867,9 @@ h6 {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+.logo-wrapper .inner {
+  padding: 0.5em 1em;
+}
 .navigation {
   margin: 0;
   padding: 0;
@@ -887,7 +890,7 @@ h6 {
 }
 .navigation-site .nav-link {
   color: #333333;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 1em 0.5em;
 }
 .navigation-site .nav-link:hover {
@@ -933,13 +936,15 @@ h6 {
   }
   .navigation-site .nav-link {
     border-bottom: solid 0.5em #ffffff;
+    padding: 1em;
   }
   .navigation-site .nav-link:hover {
     background: #ffffff;
     border-bottom: solid 0.5em #dddddd;
   }
   .nav-link {
-    font-size: 1em;
+    font-size: 1.5em;
+    padding: 1em 0.5em;
   }
 }
 @media only screen and (min-width: 50em) {
